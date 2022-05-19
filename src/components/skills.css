@@ -1,0 +1,42 @@
+.skills {
+  padding: 20px;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skill-card {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: space-around;
+}
+
+.card {
+  padding: 5px 10px 10px 5px;
+}
+.skills-title {
+  padding: 30px;
+  color: var(--second-color);
+  font-family: "Baskerville", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.skill-img {
+  width: 140px;
+  height: 100px;
+}
+
+.skill-card-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}

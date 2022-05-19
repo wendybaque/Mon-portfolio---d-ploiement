@@ -1,0 +1,131 @@
+.contact {
+  position: relative;
+  height: 100vh;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+
+.contact-bg {
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  background-color: var(--third-color);
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.contact-wrapper {
+  padding: 50px;
+  display: flex;
+}
+
+.contact-left {
+  z-index: 3;
+  flex: 1;
+}
+
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title {
+  color: var(--second-color);
+  font-family: "Baskerville", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  width: 80%;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  width: 75%;
+}
+
+a:hover {
+  color: #141414;
+}
+
+a:visited {
+  color: var(--second-color);
+}
+
+.contact-icon {
+  color: var(--color-dark);
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.contact-description {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #141414;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding-left: 10px;
+}
+
+textarea {
+  width: 100%;
+  margin: 10px 0px;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 1px solid #141414;
+  border-radius: 5px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--third-color);
+  color: #141414;
+  font-weight: bold;
+  padding: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .contact-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+  .contact-title {
+    font-size: 30px;
+  }
+  .contact-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+  .contact-description {
+    display: none;
+  }
+  .form {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-bg {
+    display: none;
+  }
+}
