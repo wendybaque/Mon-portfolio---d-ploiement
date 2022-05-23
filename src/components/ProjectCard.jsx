@@ -15,8 +15,8 @@ function ProjectCard() {
   return (
     <div className="project-wrapper">
       <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
+        <div className="project-card-title">Site d&apos;auteure | En cours</div>
+        <div className="project-card-skills">React</div>
         <img src={logoauteure} alt="logo" className="project-card-img" />
         <div className="project-card-description">
           <p>
@@ -26,7 +26,7 @@ function ProjectCard() {
           <div className="project-card-links">
             <div className="links-github">
               <a
-                href="https://github.com/wendybaque/site-auteure"
+                href="https://github.com/wendybaque/Site-auteure"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -34,7 +34,7 @@ function ProjectCard() {
               </a>
             </div>
             <div className="links-page">
-              <a href="efcaerc" target="_blank" rel="noreferrer">
+              <a href="https://wendybaqueauteurederomans.netlify.app/" target="_blank" rel="noreferrer">
                 Voir le site
               </a>
             </div>
@@ -147,7 +147,7 @@ function ProjectCard() {
 
       <div className="project-card">
         <div className="project-card-title">Hackathon 2 - à venir</div>
-        <div className="project-card-skills">Machin | Truc | Bidule</div>
+        <div className="project-card-skills">A venir</div>
         <img src={hackathon} alt="logo" className="project-card-img" />
         <div className="project-card-description">
           <p>
