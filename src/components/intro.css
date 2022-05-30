@@ -25,6 +25,7 @@
 
 /* LEFT SIDE */
 .intro-hello {
+  font-family: 'DotGothic16', sans-serif;
   padding: 12px;
   font-size: 30px;
   font-weight: 300;
@@ -32,11 +33,12 @@
 
 .intro-name {
   padding: 12px;
-  font-family: "Baskerville", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 60px;
 }
 
 .intro-title {
+  font-family: 'DotGothic16', sans-serif;
   padding: 12px;
   height: 100px;
   font-size: 30px;
@@ -87,7 +89,8 @@
 }
 
 span {
-  font-family: "Baskerville", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
   color: var(--third-color);
 }
 
