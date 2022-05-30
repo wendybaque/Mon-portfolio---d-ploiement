@@ -24,6 +24,10 @@
   align-content: space-around;
 }
 
+.project-card:hover {
+  transform: scale(1.1);
+}
+
 .project-card-img {
   padding: 5px;
   height: 300px;
