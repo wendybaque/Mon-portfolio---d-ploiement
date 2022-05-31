@@ -1,279 +1,136 @@
 import React from "react";
 import "./projectcard.css";
 
-import logoauteure from "../assets/logoauteure.png";
-import hackathon from "../assets/hackathon.jpg";
-import project from "../assets/project.png";
-import resto from "../assets/resto.png";
-import simpsons from "../assets/simpsons.png";
-import techchallenge from "../assets/techchallenge.png";
-import kodework from "../assets/kodeworklogo.png";
-import Mood from "../assets/moodlogo.png";
-import Save from "../assets/savelogo.png";
+const data = [
+  {
+    id: 1,
+    title: "Site d'auteure",
+    img: "https://simplement.pro/asc/public/upload/faces/4323.jpg?rev=1613986074",
+    techno: "React",
+    descr:
+      "Création de mon site d'auteure pour présenter mes romans et mon parcours littéraire",
+    code: "https://github.com/wendybaque/site-auteure",
+    page: "https://wendybaqueauteurederomans.netlify.app/",
+  },
 
-function ProjectCard() {
+  {
+    id: 2,
+    title: "Projet de groupe 1 - KodeWork",
+    img: "https://saucycorentin.github.io/assets/logo/logoDESKTOP.png",
+    techno: "HTML5 | CSS3 | Javascript",
+    descr:
+      "Site internet responsive permettant de mettre en relation professionnels et particuliers pour trouver des lieux de coworking partout en France.",
+    code: "https://github.com/SAUCYCorentin/coworking-project1",
+    page: "https://saucycorentin.github.io",
+  },
+
+  {
+    id: 3,
+    title: " Projet de groupe 2 - Mood, une application de choix",
+    img: "https://mood-une-application-de-choix.netlify.app/assets/MoodLogo.d8b31aaf.png",
+    techno: "React & Hooks | API Rest",
+    descr:
+      "Site internet responsive permettant de fair une association entre films et pizzas, si on ne sait pas quoi regarder ou si on hésite sur la composition de notre pizza ! Un peu de fun pour tester en groupe toutes les fonctionnalités qu'offre React.",
+    code: "https://github.com/WildCodeSchool/2022-03-RemoteJS-Erreur404-tortues-ninjas",
+    page: "https://mood-une-application-de-choix.netlify.app/home",
+  },
+
+  {
+    id: 4,
+    title: "Projet de groupe 3 - Plateforme Rookies",
+    img: "https://images.squarespace-cdn.com/content/v1/60de0a8851ebfc1f3d756b1d/23b99f13-8fd7-418e-b7db-fabda803b9c9/PNG-Transparent-high-resolution.png?format=1500w",
+    techno: "React | Tailwind | Express.js | Node.js",
+    descr:
+      "Plateforme de mise en relation d'entreprises et d'écoles autour de projets d'études pour faciliter les rencontres, l'accompagnement et l'aboutissement de projets.",
+    code: "https://github.com/WildCodeSchool/2022-03-JS-Remote-404-Rookies-Project-App",
+    page: "cfvgyuhbijn",
+  },
+
+  {
+    id: 5,
+    title: "Hackathon 1 - Save Ourselves",
+    img: "https://media-exp1.licdn.com/dms/image/C4E22AQGWeeNrMALezg/feedshare-shrink_800/0/1652703704983?e=1657152000&v=beta&t=QSi_E_UVOrPS7in8O57ic8OD8JY5CKyqpQgJk_7uDQk",
+    techno: "React & Hooks | API Rest | Tailwind",
+    descr:
+      "Hackathon de 48 heures sur le thème de l'écologie, par groupe de 4 personnes, sur toute la Wild Code School. Nous avons réalisé une application responsive permettant de mesurer l'empreinte écologique d'un utilisateur en fonction de ses éco-gestes.",
+    code: "https://github.com/KevinLavigne/hackathon",
+    page: "tvygi",
+  },
+
+  {
+    id: 6,
+    title: "Hackathon 2 - à venir",
+    img: "https://media.istockphoto.com/vectors/hackathon-banner-illustration-abstract-futuristic-background-with-vector-id1213258486?k=20&m=1213258486&s=612x612&w=0&h=VAGuLo8tudThWWKQefdymlnqMwjGm0Elt8x_8fRpZK4=",
+    techno: "à venir",
+    descr: "à venir",
+    code: "gvhbjn",
+    page: "ctfyvguhbijn",
+  },
+
+  {
+    id: 7,
+    title: "Workshop - Menu de restaurant",
+    img: "https://desenio.fr/bilder/artiklar/zoom/13272_2.jpg?imgwidth=435&qt=Le%20menu",
+    techno: "React props and state",
+    descr:
+      "Exercice d'études visant à mettre en pratique les props et le state de React pour créer un menu de restaurant dynamique en fonction des actions de l'utilisateur.",
+    code: "https://codesandbox.io/s/r27u2l?file=/public/index.html",
+    page: "https://r27u2l.csb.app/",
+  },
+
+  {
+    id: 8,
+    title: "Workshop - Citations des Simpsons",
+    img: "https://fr.web.img5.acsta.net/pictures/20/10/01/11/26/1905965.jpg",
+    techno: "React fetch, axios et API",
+    descr:
+      "Exercice d'études visant à fetcher les données d'une API avec React. Si l'on clique sur le bouton, une citation de Simpson aléatoire apparaît.",
+    code: "https://codesandbox.io/s/0b4euv",
+    page: "https://0b4euv.csb.app/",
+  },
+
+  {
+    id: 9,
+    title: "Tech Challenge - entrée à la Wild Code School",
+    img: "https://www.wildcodeschool.com/assets/wildcodeschool-logo-meta-image-f6f2f7f52b82bfc419f031f6a989020a8b094d7a4e6676ab6f0dff0b0f470da9.png",
+    techno: "HTML5 | CSS3 | Javascript",
+    descr:
+      "Tech challenge pour l'entrée à la Wild Code School, mon premier code, mes premières expériences... qui m'ont permis d'accéder à cette super formation !",
+    code: "https://codesandbox.io/s/techchallenge-web-dev-starter-forked-pbldt?file=/index.html",
+    page: "https://pbldt.csb.app/",
+  },
+];
+export default function ProjectCard() {
   return (
-    <div className="project-wrapper">
-      <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure | En cours</div>
-        <div className="project-card-skills">React</div>
-        <img src={logoauteure} alt="logo" className="project-card-img" />
-        <div className="project-card-description">
-          <p>
-            Création de mon site d&apos;auteure pour présenter mes romans et mon
-            parcours littéraire.
-          </p>
-          <div className="project-card-links">
-            <div className="links-github">
-              <a
-                href="https://github.com/wendybaque/Site-auteure"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Voir le code
-              </a>
+    <div className="cards" id="cards">
+      <div className="cards-container">
+        {data.map((d) => (
+          <div className="card-project">
+            <div className="top">
+              <h2 className="card-title">{d.title}</h2>
+              <img src={d.img} alt="logo du projet" className="card-img" />
             </div>
-            <div className="links-page">
-              <a href="https://wendybaqueauteurederomans.netlify.app/" target="_blank" rel="noreferrer">
-                Voir le site
-              </a>
+            <div className="center">
+              <h3>{d.techno}</h3>
+              <p>{d.descr}</p>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Projet de groupe 1 - KodeWork</div>
-        <div className="project-card-skills">HTML5 | CSS3 | Javascript</div>
-        <img src={kodework} alt="logo" className="project-card-img" />
-        <div className="project-card-description">
-          <p>
-            Site internet responsive permettant de mettre en relation
-            professionnels et particuliers pour trouver des lieux de coworking
-            partout en France
-          </p>
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="https://github.com/SAUCYCorentin/coworking-project1">
-                Voir le code
-              </a>
-            </div>
-            <div className="links-page">
-              <a href="https://saucycorentin.github.io/">Voir le site</a>
+            <div className="bottom">
+              <div className="project-card-links">
+                <div className="links-github">
+                  <a href={d.code} target="_blank" rel="noreferrer">
+                    Voir le code
+                  </a>
+                </div>
+                <div className="links-page">
+                  <a href={d.page} target="_blank" rel="noreferrer">
+                    Voir le site
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">
-          Projet de groupe 2 - Mood, une application de choix
-        </div>
-        <div className="project-card-skills">React et Hooks</div>
-        <img src={Mood} alt="logo" className="project-card-img" />
-        <div className="project-card-description">
-          <p>
-            Site internet responsive permettant de fair une association entre
-            films et pizzas, si on ne sait pas quoi regarder ou si on hésite sur
-            la composition de notre pizza ! Un peu de fun pour tester en groupe
-            toutes les fonctionnalités qu&apos;offre React.
-          </p>
-          <div className="project-card-links">
-            <div className="links-github">
-              <a
-                href="https://github.com/WildCodeSchool/2022-03-RemoteJS-Erreur404-tortues-ninjas"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Voir le code
-              </a>
-            </div>
-            <div className="links-page">
-              <a
-                href="https://mood-une-application-de-choix.netlify.app/home"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Voir le site
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Projet de groupe 3 - à venir</div>
-        <div className="project-card-skills">Backend | Bases de données</div>
-        <img src={project} alt="projet" className="project-card-img" />
-        <div className="project-card-description">
-          <p>
-            Site qui fait des trucs en backend et que je ne sais pas encore ce
-            que c&apos;est.
-          </p>
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="lyguhij">Voir le code</a>
-            </div>
-            <div className="links-page">
-              <a href="efcaerc">Voir le site</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Hackathon 1 - Save Ourselves</div>
-        <div className="project-card-skills">React | Tailwind | Github</div>
-        <img src={Save} alt="logo" className="project-card-img" />
-        <div className="project-card-description">
-          <p>
-            Hackathon de 48 heures sur le thème de l&apos;écologie, par groupe
-            de 4 personnes, sur toute la Wild Code School. Nous avons réalisé
-            une application responsive permettant de mesurer l&apos;empreinte
-            écologique d&apos;un utilisateur en fonction de ses éco-gestes.
-          </p>
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="https://github.com/KevinLavigne/hackathon">
-                Voir le code
-              </a>
-            </div>
-            <div className="links-page">
-              <a href="efcaerc">Voir le site</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Hackathon 2 - à venir</div>
-        <div className="project-card-skills">A venir</div>
-        <img src={hackathon} alt="logo" className="project-card-img" />
-        <div className="project-card-description">
-          <p>
-            Hackathon de 48 heures, dates, projet de groupe qui a pour objectif
-            de blablabla.
-          </p>
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="https://github.com/wendybaque/site-auteure">
-                Voir le code
-              </a>
-            </div>
-            <div className="links-page">
-              <a href="efcaerc">Voir le site</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Workshop - Menu de restaurant</div>
-        <div className="project-card-skills">React props et state</div>
-        <img src={resto} alt="logo" className="project-card-img" />
-        <div className="project-card-description">
-          <p>
-            Exercice d&apos; études visant à mettre en pratique les props et le
-            state de React pour créer un menu de restaurant dynamique en
-            fonction des actions de l&apos;utilisateur.
-          </p>
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="https://codesandbox.io/s/r27u2l?file=/public/index.html">
-                Voir le code
-              </a>
-            </div>
-            <div className="links-page">
-              <a href="https://r27u2l.csb.app/">Voir le site</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">
-          Workshop - Citations des Simpsons
-        </div>
-        <div className="project-card-skills">React fetch, axios et API</div>
-        <img src={simpsons} alt="logo" className="project-card-img" />
-        <div className="project-card-description">
-          <p>
-            Exercice d&apos; études visant à fetcher les données d&apos;une AP
-            avec React. Si l&apos;on clique sur le bouton, une citation de
-            Simpson aléatoire apparaît.
-          </p>
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="https://codesandbox.io/s/0b4euv">Voir le code</a>
-            </div>
-            <div className="links-page">
-              <a href="https://0b4euv.csb.app/">Voir le site</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">
-          Tech Challenge - entrée à la Wild Code School
-        </div>
-        <div className="project-card-skills">HTML5 | CSS3 | Javascript</div>
-        <img src={techchallenge} alt="logo" className="project-card-img" />
-        <div className="project-card-description">
-          <p>
-            Tech challenge pour l&apos;entrée à la Wild Code School, mon premier
-            code, mes premières expériences... qui m&apos;ont permis
-            d&apos;accéder à cette super formation !
-          </p>
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="https://codesandbox.io/s/techchallenge-web-dev-starter-forked-pbldt?file=/index.html">
-                Voir le code
-              </a>
-            </div>
-            <div className="links-page">
-              <a href="https://pbldt.csb.app/">Voir le site</a>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
 }
-
-export default ProjectCard;
-
-// import { projects } from "./data";
-
-// function ProjectCard({ img, link }) {
-//   return (
-//     <div className="product">
-//       <div className="project-browser">
-//         <div className="project-circle" />
-//         <div className="project-circle" />
-//         <div className="project-circle" />
-//         <a href={link} target="_blank" rel="noreferrer">
-//           <img src={img} alt="my projects" className="project-img" />
-//         </a>
-//       </div>
-//     </div>
-//   );
-// }
-// export default ProjectCard;
-
-// function ProjectCard({ name, img, link }) {
-//   return (
-//     <div className="product">
-//       <div className="project-browser">
-//         <div className={name} />
-//         <div className="project-circle" />
-//         <div className="project-circle" />
-//         <div className="project-circle" />
-//         <a href={link} target="_blank" rel="noreferrer">
-//           <img src={img} alt="my projects" className="project-img" />
-//         </a>
-//       </div>
-//     </div>
-//   );
-// }
-// export default ProjectCard;
