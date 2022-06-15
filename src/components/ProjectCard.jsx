@@ -16,18 +16,18 @@ const data = [
   {
     id: 2,
     title: "Projet de groupe 1 - KodeWork",
-    img: "https://saucycorentin.github.io/assets/logo/logoDESKTOP.png",
+    img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a0f6b79f7.png",
     techno: "HTML5 | CSS3 | Javascript",
     descr:
       "Site internet responsive permettant de mettre en relation professionnels et particuliers pour trouver des lieux de coworking partout en France.",
     code: "https://github.com/SAUCYCorentin/coworking-project1",
-    page: "https://saucycorentin.github.io",
+    page: "https://wendybaque.github.io/coworking-project1/",
   },
 
   {
     id: 3,
     title: " Projet de groupe 2 - Mood, une application de choix",
-    img: "https://mood-une-application-de-choix.netlify.app/assets/MoodLogo.d8b31aaf.png",
+    img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a24c900a9.png",
     techno: "React & Hooks | API Rest",
     descr:
       "Site internet responsive permettant de fair une association entre films et pizzas, si on ne sait pas quoi regarder ou si on hésite sur la composition de notre pizza ! Un peu de fun pour tester en groupe toutes les fonctionnalités qu'offre React.",
@@ -70,7 +70,7 @@ const data = [
   {
     id: 7,
     title: "Workshop - Menu de restaurant",
-    img: "https://desenio.fr/bilder/artiklar/zoom/13272_2.jpg?imgwidth=435&qt=Le%20menu",
+    img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a18381a86.png",
     techno: "React props and state",
     descr:
       "Exercice d'études visant à mettre en pratique les props et le state de React pour créer un menu de restaurant dynamique en fonction des actions de l'utilisateur.",
@@ -81,7 +81,7 @@ const data = [
   {
     id: 8,
     title: "Workshop - Citations des Simpsons",
-    img: "https://fr.web.img5.acsta.net/pictures/20/10/01/11/26/1905965.jpg",
+    img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a1c1651ab.png",
     techno: "React fetch, axios et API",
     descr:
       "Exercice d'études visant à fetcher les données d'une API avec React. Si l'on clique sur le bouton, une citation de Simpson aléatoire apparaît.",
@@ -92,7 +92,7 @@ const data = [
   {
     id: 9,
     title: "Tech Challenge - entrée à la Wild Code School",
-    img: "https://www.wildcodeschool.com/assets/wildcodeschool-logo-meta-image-f6f2f7f52b82bfc419f031f6a989020a8b094d7a4e6676ab6f0dff0b0f470da9.png",
+    img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a2c1744bb.png",
     techno: "HTML5 | CSS3 | Javascript",
     descr:
       "Tech challenge pour l'entrée à la Wild Code School, mon premier code, mes premières expériences... qui m'ont permis d'accéder à cette super formation !",
