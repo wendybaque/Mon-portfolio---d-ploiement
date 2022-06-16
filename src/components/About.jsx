@@ -1,13 +1,12 @@
 import React from "react";
 import "./about.css";
-import cvportfolio1 from "../assets/CVportfolio.png";
+import cvportfolio1 from "../assets/curriculum.png";
 import logoauteure from "../assets/logoauteure.png";
 
 function About() {
   return (
     <div className="about">
       <div className="about-left">
-        {/* <div className="about-card bg" /> */}
         <div className="about-card">
           <img
             src={cvportfolio1}
