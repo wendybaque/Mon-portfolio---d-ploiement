@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import cvportfolio1 from "../assets/cvportfolio.png";
+import cvportfolio1 from "../assets/CVportfolio.png";
 import logoauteure from "../assets/logoauteure.png";
 
 function About() {
