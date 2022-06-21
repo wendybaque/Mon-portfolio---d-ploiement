@@ -9,6 +9,8 @@ import github from "../assets/LogoGithub.png";
 import marvel from "../assets/LogoMarvel.png";
 import react from "../assets/LogoReact.png";
 import tailwind from "../assets/LogoTailwindcss.png";
+import codewars from "../assets/codewars.svg";
+
 import "./skills.css";
 
 function Skills() {
@@ -61,6 +63,10 @@ function Skills() {
           <h1 className="skill-card-title">Marvel app</h1>
         </div>
       </div>
+      <div className="codewars">
+            <img src={codewars} alt="badge codewars" className="codewars-img" />
+            <h1 className="skill-card-title">Mon niveau sur Codewars</h1>
+        </div>
     </div>
   );
 }

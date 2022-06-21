@@ -40,3 +40,16 @@
   font-size: 1em;
   font-weight: bold;
 }
+
+.codewars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  align-content: space-around;
+}
+
+.codewars-img {
+  width: 300px;
+  height: 150px;
+}
