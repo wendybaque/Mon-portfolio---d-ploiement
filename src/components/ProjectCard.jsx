@@ -91,6 +91,17 @@ const data = [
 
   {
     id: 9,
+    title: "Workshop - Calculatrice",
+    img: "https://www.hebergeur-image.com/upload/176.154.198.164-62b2e8e0c8088.png",
+    techno: "HTML | CSS | Javascript",
+    descr:
+      "Premier Workshop visant à créer une calculatrice en Javascript + module The Price is Right avec une fenêtre popup.",
+    code: "https://github.com/wendybaque/Workshop-Calculator-",
+    page: "https://wendybaque.github.io/Workshop-Calculator-/",
+  },
+
+  {
+    id: 10,
     title: "Tech Challenge - entrée à la Wild Code School",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a2c1744bb.png",
     techno: "HTML5 | CSS3 | Javascript",
