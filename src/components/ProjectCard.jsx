@@ -119,7 +119,7 @@ export default function ProjectCard() {
           <div className="card-project">
             <div className="top">
               <h2 className="card-title">{d.title}</h2>
-              <img src={d.img} alt="logo du projet" className="card-img" />
+              <img src={d.img} alt="logo du projet réalisé par Wendy Baqué" className="card-img" />
             </div>
             <div className="center">
               <h3>{d.techno}</h3>

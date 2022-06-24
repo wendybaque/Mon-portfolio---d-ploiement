@@ -51,7 +51,7 @@ function About() {
           <a href="https://linktr.ee/Antiigone" target="_blanck">
             <img
               src={logoauteure}
-              alt="logo auteure antiigone"
+              alt="logo officiel de l'auteure Wendy Baqué, créé par Linda Catherine, représentant le nom de l'auteure avec une guitare électrique et une plume d'écrivain"
               className="about-auteure-img"
             />
           </a>

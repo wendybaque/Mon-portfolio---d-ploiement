@@ -1,7 +1,7 @@
 .footer-text {
   font-weight: bold;
   padding: 20px;
-  color: aliceblue;
+  color: var(--second-color);
   background-color: var(--third-color);
   font-weight: bold;
   text-align: center;

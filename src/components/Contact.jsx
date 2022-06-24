@@ -41,15 +41,15 @@ function Contact() {
           <h1 className="contact-title">Contact</h1>
           <div className="contact-info">
             <div className="contact-info-item">
-              <img src={phone} alt="phone" className="contact-icon" /> 06 98 15
+              <img src={phone} alt="pictogtamme de téléphone" className="contact-icon" /> 06 98 15
               71 13
             </div>
             <div className="contact-info-item">
-              <img src={mail} alt="mail" className="contact-icon" />{" "}
+              <img src={mail} alt="pictogramme d'enveloppe d'email" className="contact-icon" />{" "}
               baque.wendy@gmail.com
             </div>
             <div className="contact-info-item">
-              <img src={linkedinsvg} alt="linkedin" className="contact-icon" />{" "}
+              <img src={linkedinsvg} alt="pictogramme avec le logo de linkedin" className="contact-icon" />{" "}
               <a
                 href="https://www.linkedin.com/in/wendy-baqu%C3%A9/"
                 target="_blanck"
@@ -58,7 +58,7 @@ function Contact() {
               </a>
             </div>
             <div className="contact-info-item">
-              <img src={githubsvg} alt="github" className="contact-icon" />
+              <img src={githubsvg} alt="pictogramme avec le logo de github" className="contact-icon" />
               <a href="https://github.com/wendybaque" target="_blanck">
                 wendybaque
               </a>
@@ -67,14 +67,18 @@ function Contact() {
         </div>
         <div className="contact-right">
           <p className="contact-description">
-            <span>Un projet ? Une mission ? Une question ?</span> <br />
+            <span className="span-contact">Un projet ? Une mission ? Une question ?</span> <br />
             N&apos;hésitez pas à me contacter sur Linkedin ou via le formulaire
             ci-dessous. Je vous répondrai dans les plus brefs délais.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
+            <label>Votre nom</label>
             <input type="text" placeholder="Nom" name="user_name" />
+            <label>Votre e-mail</label>
             <input type="text" placeholder="E-mail" name="user_email" />
+            <label>Le sujet de votre message</label>
             <input type="text" placeholder="Sujet" name="user_subject" />
+            <label>Le texte de votre message</label>
             <textarea rows="6" placeholder="Message" name="message" />
             <button type="submit"> Envoyer </button>
             {done &&

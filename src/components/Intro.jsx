@@ -38,14 +38,14 @@ function Intro() {
               >
                 <img
                   src={linkedin}
-                  alt="linkedin"
+                  alt="pictogramme avec le logo de linkedin"
                   className="intro-linkedin-img"
                 />{" "}
               </a>
             </div>
             <div className="intro-github">
               <a href="https://github.com/wendybaque" target="_blanck">
-                <img src={github} alt="github" className="intro-github-img" />
+                <img src={github} alt="pictogramme avec le logo degithub" className="intro-github-img" />
               </a>
             </div>
           </div>
@@ -53,7 +53,7 @@ function Intro() {
       </div>
       <div className="intro-right">
         <div className="intro-bg" />
-        <img src={photocv} alt="Wendy Baqué" className="intro-img" />
+        <img src={photocv} alt="Wendy Baqué avec ses deux romances éditées chez Plumes de Mimi éditions" className="intro-img" />
         <div className="intro-right-wrapper" />
       </div>
     </div>
