@@ -65,7 +65,7 @@ function Skills() {
       </div>
       <div className="codewars">
             <img src={codewars} alt="badge codewars" className="codewars-img" />
-            <h1 className="skill-card-title">Mon niveau sur Codewars</h1>
+            <a href="https://www.codewars.com/users/wendybaque" ><h1 className="skill-card-title">Codewars : niveau et profil</h1></a>
         </div>
     </div>
   );
