@@ -116,17 +116,17 @@ export default function ProjectCard() {
     <div className="cards" id="cards">
       <div className="cards-container">
         {data.map((d) => (
-          <div className="card-project">
-            <div className="top">
+          <div className="card-project" aria-label="carte de projets réalisés par Wendy Baqué">
+            <div className="top" aria-label="au de la carte projet avec leurs logos">
               <h2 className="card-title">{d.title}</h2>
               <img src={d.img} alt="logo du projet réalisé par Wendy Baqué" className="card-img" />
             </div>
-            <div className="center">
+            <div className="center" aria-label="centre de la carte projet">
               <h3>{d.techno}</h3>
               <p>{d.descr}</p>
             </div>
             <div className="bottom">
-              <div className="project-card-links">
+              <div className="project-card-links" aria-label="bas de la carte avec liens vers le code et les sites">
                 <div className="links-github">
                   <a href={d.code} target="_blank" rel="noreferrer">
                     Voir le code

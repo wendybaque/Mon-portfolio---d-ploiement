@@ -3,7 +3,7 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <div className="footer-text">
+    <div className="footer-text" aria-label="pied de page">
       <p>Copyright ©2022</p>
       <p>Wendy Baqué - Développeuse web.</p>
       <p className="legal-mentions">Mentions Légales</p>

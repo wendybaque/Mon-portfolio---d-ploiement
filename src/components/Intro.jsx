@@ -8,7 +8,8 @@ function Intro() {
   return (
     <div className="intro">
       <div className="intro-left">
-        <div className="intro-left-wrapper">
+        <div className="intro-left-wrapper" aria-label="Bloc de présentation de gauche avec texte d'introduction">
+          <main>
           <h2 className="intro-hello">Bienvenue !</h2>
           <h1 className="intro-name">
             {" "}
@@ -49,11 +50,12 @@ function Intro() {
               </a>
             </div>
           </div>
+          </main>
         </div>
       </div>
-      <div className="intro-right">
+      <div className="intro-right" aria-label="bloc de présentation de droite avec photo de Wendy Baqué">
         <div className="intro-bg" />
-        <img src={photocv} alt="Wendy Baqué avec ses deux romances éditées chez Plumes de Mimi éditions" className="intro-img" />
+        <img src={photocv} alt="Wendy Baqué" className="intro-img" />
         <div className="intro-right-wrapper" />
       </div>
     </div>

@@ -60,6 +60,11 @@ a:visited {
   color: var(--second-color);
 }
 
+.contact-button:hover {
+  color:var(--color-light);
+  background-color: var(--second-color);
+}
+
 .contact-icon {
   color: var(--color-dark);
   width: 30px;

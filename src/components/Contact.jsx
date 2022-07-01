@@ -37,7 +37,7 @@ function Contact() {
     <div className="contact">
       <div className="contact-bg" />
       <div className="contact-wrapper">
-        <div className="contact-left">
+        <div className="contact-left" aria-label="Panneau de gauche pour contacter Wendy Baqué">
           <h1 className="contact-title">Contact</h1>
           <div className="contact-info">
             <div className="contact-info-item">
@@ -65,22 +65,22 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div className="contact-right">
+        <div className="contact-right" aria-label="Formulaire de contact">
           <p className="contact-description">
             <span className="span-contact">Un projet ? Une mission ? Une question ?</span> <br />
             N&apos;hésitez pas à me contacter sur Linkedin ou via le formulaire
             ci-dessous. Je vous répondrai dans les plus brefs délais.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <label>Votre nom</label>
-            <input type="text" placeholder="Nom" name="user_name" />
-            <label>Votre e-mail</label>
-            <input type="text" placeholder="E-mail" name="user_email" />
-            <label>Le sujet de votre message</label>
-            <input type="text" placeholder="Sujet" name="user_subject" />
-            <label>Le texte de votre message</label>
-            <textarea rows="6" placeholder="Message" name="message" />
-            <button type="submit"> Envoyer </button>
+            <label>Votre nom
+            <input type="text" placeholder="Nom" name="user_name" required aria-required="true" /></label>
+            <label>Votre e-mail
+            <input type="text" placeholder="E-mail" name="user_email" required aria-required="true"/></label>
+            <label>Le sujet de votre message
+            <input type="text" placeholder="Sujet" name="user_subject" required aria-required="true"/></label>
+            <label>Le texte de votre message
+            <textarea rows="6" placeholder="Message" name="message" required aria-required="true"/></label>
+            <button type="submit" aria-pressed="false" className="contact-button"> Envoyer </button>
             {done &&
               "Merci pour votre message. Je vous répondrai au plus vite !"}
           </form>

@@ -15,7 +15,7 @@ import "./skills.css";
 
 function Skills() {
   return (
-    <div className="skills">
+    <div className="skills" aria-label="Compétences techniques de Wendy Baqué">
       <h1 className="skills-title">Mes compétences</h1>
       <div className="skill-card">
         <div className="card">

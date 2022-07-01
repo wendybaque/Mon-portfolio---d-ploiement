@@ -46,6 +46,10 @@
   border-radius: 5px;
 }
 
+.about-img:hover {
+  transform: scale(1.1);
+}
+
 .about-title {
   color: var(--second-color);
   font-family: 'DotGothic16', sans-serif;

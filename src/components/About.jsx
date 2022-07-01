@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="about">
       <div className="about-left">
-        <div className="about-card">
+        <div className="about-card" aria-label="curriculum vitae de Wendy Baqué">
           <img
             src={cvportfolio1}
             alt="curriculum vitae"
@@ -15,7 +15,7 @@ function About() {
           />
         </div>
       </div>
-      <div className="about-right">
+      <div className="about-right" aria-label="Bloc de présentation des valeurs professionnelles de Wendy Baqué">
         <h1 className="about-title">Qui suis-je ?</h1>
         <p className="about-subtitle">
           🚀 Les valeurs les plus importantes dans le monde du travail sont,
@@ -33,9 +33,11 @@ function About() {
           <span className="spanabout">
             Motivée, rigoureuse, assidue et ponctuelle{" "}
           </span>
-          , je suis ouverte à tout type d&apos;entreprise.
+          ,  <p>
+              je suis actuellement en stage chez Fedmind, une start-up géniale. Je les aide à développer leur application d'aide et d'accompagnement aux patients souffrant d'obésité. 
+            </p>
         </p>
-        <div className="about-auteure-wrapper">
+        <div className="about-auteure-wrapper" aria-label="Présentation du travail d'auteure de romans de Wendy Baqué">
           <p className="about-auteure">
             📚 Je suis aussi auteure de 4 romans contemporains sur des
             thématiques qui me tiennent à coeur : la santé mentale,
