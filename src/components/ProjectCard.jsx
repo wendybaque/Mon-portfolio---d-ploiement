@@ -52,19 +52,19 @@ const data = [
     img: "https://media-exp1.licdn.com/dms/image/C4E22AQGWeeNrMALezg/feedshare-shrink_800/0/1652703704983?e=1657152000&v=beta&t=QSi_E_UVOrPS7in8O57ic8OD8JY5CKyqpQgJk_7uDQk",
     techno: "React & Hooks | API Rest | Tailwind",
     descr:
-      "Hackathon de 48 heures sur le thème de l'écologie, par groupe de 4 personnes, sur toute la Wild Code School. Nous avons réalisé une application responsive permettant de mesurer l'empreinte écologique d'un utilisateur en fonction de ses éco-gestes.",
+      "Hackathon de 48 heures sur le thème de l'écologie, par groupe de 4 personnes, sur tous les campus de la Wild Code School. Nous avons réalisé une application responsive permettant de mesurer l'empreinte écologique d'un utilisateur en fonction de ses éco-gestes.",
     code: "https://github.com/KevinLavigne/hackathon",
     page: "tvygi",
   },
 
   {
     id: 6,
-    title: "Hackathon 2 - à venir",
-    img: "https://media.istockphoto.com/vectors/hackathon-banner-illustration-abstract-futuristic-background-with-vector-id1213258486?k=20&m=1213258486&s=612x612&w=0&h=VAGuLo8tudThWWKQefdymlnqMwjGm0Elt8x_8fRpZK4=",
-    techno: "à venir",
-    descr: "à venir",
-    code: "gvhbjn",
-    page: "ctfyvguhbijn",
+    title: "Hackathon 2 - Apside",
+    img: "data:image/jpeg;base64,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",
+    techno: "React | Tailwindcss",
+    descr: "Hackathon de 72h pour l'entreprise Apside, par groupe de 5 développeurs, sur tous les campus de la Wild Code School. Plateforme de gestion de projets en interne.",
+    code: "https://github.com/Damien-Dupont/hackathon2",
+    page: "ctf",
   },
 
   {
