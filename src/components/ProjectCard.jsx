@@ -41,7 +41,7 @@ const data = [
     img: "https://images.squarespace-cdn.com/content/v1/60de0a8851ebfc1f3d756b1d/23b99f13-8fd7-418e-b7db-fabda803b9c9/PNG-Transparent-high-resolution.png?format=1500w",
     techno: "React | Tailwind | Express.js | Node.js",
     descr:
-      "Plateforme de mise en relation d'entreprises et d'écoles autour de projets d'études pour faciliter les rencontres, l'accompagnement et l'aboutissement de projets.",
+      "Plateforme de mise en relation d'entreprises et d'écoles autour de projets d'études pour faciliter les rencontres, l'accompagnement et l'aboutissement de projets. J'y ai tenu le rôle de Product Owner.",
     code: "https://github.com/WildCodeSchool/2022-03-JS-Remote-404-Rookies-Project-App",
     page: "cfvgyuhbijn",
   },
@@ -60,15 +60,35 @@ const data = [
   {
     id: 6,
     title: "Hackathon 2 - Apside",
-    img: "data:image/jpeg;base64,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",
+    img: "https://www.hebergeur-image.com/upload/176.154.198.164-62bfc445c7374.png",
     techno: "React | Tailwindcss",
     descr: "Hackathon de 72h pour l'entreprise Apside, par groupe de 5 développeurs, sur tous les campus de la Wild Code School. Plateforme de gestion de projets en interne.",
     code: "https://github.com/Damien-Dupont/hackathon2",
     page: "ctf",
   },
-
   {
     id: 7,
+    title: "Checkpoint 4",
+    img: "https://www.frozzyeurope.com/wp-content/uploads/2018/04/coming-soon.png",
+    techno: "à venir",
+    descr: "Exercice de fin d'études, mêlant toutes mes compétences en front-end et back-end pour créer mon blog de chroniqueuse littéraire",
+    code: "zaqesrdft",
+    page: "ctf",
+  },
+
+  {
+    id: 8,
+    title: "Checkpoint 3",
+    img: "https://www.hebergeur-image.com/upload/176.154.198.164-62bfc6b11c249.png",
+    techno: "MySQL | Express.js | Node.js | React",
+    descr: "Exercice d'études, création d'un jeu de recherche de trésor sur une carte, dans le but de valider mes acquis en développement back-end.",
+    code: "https://github.com/wendybaque/Checkpoint-3",
+    page: "ctf",
+  },
+
+
+  {
+    id: 9,
     title: "Workshop - Menu de restaurant",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a18381a86.png",
     techno: "React props and state",
@@ -79,7 +99,7 @@ const data = [
   },
 
   {
-    id: 8,
+    id: 10,
     title: "Workshop - Citations des Simpsons",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a1c1651ab.png",
     techno: "React fetch, axios et API",
@@ -90,7 +110,7 @@ const data = [
   },
 
   {
-    id: 9,
+    id: 11,
     title: "Workshop - Calculatrice",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62b2e8e0c8088.png",
     techno: "HTML | CSS | Javascript",
@@ -101,7 +121,7 @@ const data = [
   },
 
   {
-    id: 10,
+    id: 12,
     title: "Tech Challenge - entrée à la Wild Code School",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a2c1744bb.png",
     techno: "HTML5 | CSS3 | Javascript",
@@ -111,6 +131,7 @@ const data = [
     page: "https://pbldt.csb.app/",
   },
 ];
+
 export default function ProjectCard() {
   return (
     <div className="cards" id="cards">
