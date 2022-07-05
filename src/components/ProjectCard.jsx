@@ -6,11 +6,11 @@ const data = [
     id: 1,
     title: "Site d'auteure",
     img: "https://simplement.pro/asc/public/upload/faces/4323.jpg?rev=1613986074",
-    techno: "React",
+    techno: "React | Tailwindcss",
     descr:
       "Création de mon site d'auteure pour présenter mes romans et mon parcours littéraire",
     code: "https://github.com/wendybaque/site-auteure",
-    page: "https://wendybaqueauteurederomans.netlify.app/",
+    page: "https://site-auteure.vercel.app/",
   },
 
   {
