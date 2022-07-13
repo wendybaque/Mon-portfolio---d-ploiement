@@ -42,7 +42,7 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 0 0.75rem #141414);
+  filter: drop-shadow(5px 5px 5px #666666);
   border-radius: 5px;
 }
 
@@ -100,8 +100,8 @@
   padding: 10px;
   width: 100px;
   height: 100px;
-  filter: drop-shadow(0 0 0.75rem #141414);
-  border-radius: 5px;
+  filter: drop-shadow(5px 5px 5px #666666);  
+  border-radius: 20px;
 }
 
 .about-auteure-img:hover {

@@ -1,4 +1,6 @@
 import React, { useRef, useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import emailjs from "@emailjs/browser";
 
@@ -10,6 +12,7 @@ import githubsvg from "../assets/github.svg";
 import linkedinsvg from "../assets/linkedin.svg";
 
 function Contact() {
+  const notify = () => toast("Merci pour votre message. Je vous répondrai au plus vite.");
   const formRef = useRef();
   const [done, setDone] = useState(false);
   const handleSubmit = (event) => {
@@ -74,15 +77,17 @@ function Contact() {
           <form ref={formRef} onSubmit={handleSubmit}>
             <label>Votre nom
             <input type="text" placeholder="Nom" name="user_name" required aria-required="true" /></label>
+            <label>Votre numéro de téléphone
+            <input type="tel" placeholder="Téléphone" name="user_phone" required aria-required="true" /></label>
             <label>Votre e-mail
-            <input type="text" placeholder="E-mail" name="user_email" required aria-required="true"/></label>
+            <input type="email" placeholder="E-mail" name="user_email" required aria-required="true"/></label>
             <label>Le sujet de votre message
             <input type="text" placeholder="Sujet" name="user_subject" required aria-required="true"/></label>
             <label>Le texte de votre message
             <textarea rows="6" placeholder="Message" name="message" required aria-required="true"/></label>
-            <button type="submit" aria-pressed="false" className="contact-button"> Envoyer </button>
+            <button type="submit" onClick={notify} aria-pressed="false" className="contact-button"> Envoyer </button>
             {done &&
-              "Merci pour votre message. Je vous répondrai au plus vite !"}
+              <ToastContainer />}
           </form>
         </div>
       </div>

@@ -49,11 +49,11 @@ const data = [
   {
     id: 5,
     title: "Hackathon 1 - Save Ourselves",
-    img: "https://media-exp1.licdn.com/dms/image/C4E22AQGWeeNrMALezg/feedshare-shrink_800/0/1652703704983?e=1657152000&v=beta&t=QSi_E_UVOrPS7in8O57ic8OD8JY5CKyqpQgJk_7uDQk",
+    img: "https://www.hebergeur-image.com/upload/176.154.198.164-62cee79a668dd.png",
     techno: "React & Hooks | API Rest | Tailwind",
     descr:
       "Hackathon de 48 heures sur le thème de l'écologie, par groupe de 4 personnes, sur tous les campus de la Wild Code School. Nous avons réalisé une application responsive permettant de mesurer l'empreinte écologique d'un utilisateur en fonction de ses éco-gestes.",
-    code: "https://github.com/KevinLavigne/hackathon",
+    code: "https://github.com/wendybaque/hackathon.git",
     page: "tvygi",
   },
 
