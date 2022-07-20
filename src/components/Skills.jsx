@@ -10,6 +10,8 @@ import marvel from "../assets/LogoMarvel.png";
 import react from "../assets/LogoReact.png";
 import tailwind from "../assets/LogoTailwindcss.png";
 import codewars from "../assets/codewars.svg";
+import mysql from "../assets/mysql.png";
+import mongodb from "../assets/mongodb.png";
 
 import "./skills.css";
 
@@ -41,6 +43,22 @@ function Skills() {
             className="skill-img"
           />
           <h1 className="skill-card-title">Express.js et Node.js</h1>
+        </div>
+        <div className="card">
+          <img
+            src={mysql}
+            alt="Logo MySQL"
+            className="skill-img"
+          />
+          <h1 className="skill-card-title">MySQL</h1>
+        </div>
+        <div className="card">
+          <img
+            src={mongodb}
+            alt="Logo MongoDB"
+            className="skill-img"
+          />
+          <h1 className="skill-card-title">MongoDB</h1>
         </div>
         <div className="card">
           <img src={git} alt="Logo git" className="skill-img" />
