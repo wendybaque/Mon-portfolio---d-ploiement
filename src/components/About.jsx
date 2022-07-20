@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import cvportfolio1 from "../assets/curriculum.png";
+import cvportfolio from "../assets/cv.png";
 import logoauteure from "../assets/logoauteure.png";
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
       <div className="about-left">
         <div className="about-card" aria-label="curriculum vitae de Wendy Baqué">
           <img
-            src={cvportfolio1}
+            src={cvportfolio}
             alt="curriculum vitae"
             className="about-img"
           />
