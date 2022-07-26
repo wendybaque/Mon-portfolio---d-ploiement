@@ -17,7 +17,7 @@ function Intro() {
           </h1>
           <h2 className="intro-title">Développeuse web full stack </h2>
           <p className="intro-technos">
-            Javascript React.js | Node.js | Express.js | Auteure de romans
+            Javascript React.js | Node.js | Express.js | MySQL | Auteure de romans
           </p>
           <div className="intro-description">
             <p>

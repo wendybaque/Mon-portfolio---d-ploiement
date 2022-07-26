@@ -11,4 +11,5 @@
 
 .legal-mentions:hover {
   color: #141414;
+  cursor: pointer;
 }
