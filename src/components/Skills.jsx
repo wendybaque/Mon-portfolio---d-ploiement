@@ -12,6 +12,7 @@ import tailwind from "../assets/LogoTailwindcss.png";
 import codewars from "../assets/codewars.svg";
 import mysql from "../assets/mysql.png";
 import mongodb from "../assets/mongodb.png";
+import bootstrap from "../assets/bootstrap.png";
 
 import "./skills.css";
 
@@ -20,23 +21,19 @@ function Skills() {
     <div className="skills" aria-label="Compétences techniques de Wendy Baqué">
       <h1 className="skills-title">Mes compétences</h1>
       <div className="skill-card">
-        <div className="card">
+        <div className="card" aria-label="skill card">
           <img src={htmlcss} alt="Logo HTML et CSS" className="skill-img" />
           <h1 className="skill-card-title">HTML5 + CSS3</h1>
         </div>
-        <div className="card">
-          <img src={tailwind} alt="Logo tailwind" className="skill-img" />
-          <h1 className="skill-card-title">Tailwindcss</h1>
-        </div>
-        <div className="card">
+        <div className="card" aria-label="skill card">
           <img src={javascript} alt="Logo Javascript" className="skill-img" />
           <h1 className="skill-card-title">Javascript</h1>
         </div>
-        <div className="card">
+        <div className="card" aria-label="skill card">
           <img src={react} alt="Logo React" className="skill-img" />
           <h1 className="skill-card-title">React.js</h1>
         </div>
-        <div className="card">
+        <div className="card" aria-label="skill card">
           <img
             src={expressnode}
             alt="Logo Express et Node"
@@ -44,7 +41,17 @@ function Skills() {
           />
           <h1 className="skill-card-title">Express.js et Node.js</h1>
         </div>
-        <div className="card">
+
+        <div className="card" aria-label="skill card">
+          <img src={tailwind} alt="Logo tailwind" className="skill-img" />
+          <h1 className="skill-card-title">Tailwindcss</h1>
+        </div>
+        <div className="card" aria-label="skill card">
+          <img src={bootstrap} alt="Logo Bootstrap" className="skill-img" />
+          <h1 className="skill-card-title">Bootstrap</h1>
+        </div>
+
+        <div className="card" aria-label="skill card">
           <img
             src={mysql}
             alt="Logo MySQL"
@@ -52,7 +59,7 @@ function Skills() {
           />
           <h1 className="skill-card-title">MySQL</h1>
         </div>
-        <div className="card">
+        <div className="card" aria-label="skill card">
           <img
             src={mongodb}
             alt="Logo MongoDB"
@@ -60,31 +67,35 @@ function Skills() {
           />
           <h1 className="skill-card-title">MongoDB</h1>
         </div>
-        <div className="card">
+
+        <div className="card" aria-label="skill card">
           <img src={git} alt="Logo git" className="skill-img" />
           <h1 className="skill-card-title">Git</h1>
         </div>
-        <div className="card">
+        <div className="card" aria-label="skill card">
           <img src={github} alt="Logo Github" className="skill-img" />
           <h1 className="skill-card-title">Github</h1>
         </div>
-        <div className="card">
+
+        <div className="card" aria-label="skill card">
           <img src={canva} alt="Logo Canva" className="skill-img" />
           <h1 className="skill-card-title">Canva</h1>
         </div>
-        <div className="card">
+        <div className="card" aria-label="skill card">
           <img src={figma} alt="Logo Figma" className="skill-img" />
           <h1 className="skill-card-title">Figma</h1>
         </div>
-        <div className="card">
+        <div className="card" aria-label="skill card">
           <img src={marvel} alt="Logo Marvel" className="skill-img" />
           <h1 className="skill-card-title">Marvel app</h1>
         </div>
       </div>
+
       <div className="codewars">
-            <img src={codewars} alt="badge codewars" className="codewars-img" />
+            <img src={codewars} alt="badge codewars" className="codewars-img" aria-label="badge Codewars"/>
             <a href="https://www.codewars.com/users/wendybaque" ><h1 className="skill-card-title">Codewars : niveau et profil</h1></a>
         </div>
+
     </div>
   );
 }
