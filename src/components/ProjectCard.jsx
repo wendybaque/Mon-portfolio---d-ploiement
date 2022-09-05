@@ -36,6 +36,28 @@ const data = [
 
   {
     id: 4,
+    title: "Marvel quiz",
+    img: "https://www.hebergeur-image.com/upload/88.174.47.6-6316011f2e0ba.png",
+    techno: "React | fetch d'API | Firebase",
+    descr:
+      "Application de quiz sur le thème de Marvel, réalisée dans le cadre du cours Udemy sur React, avec déploiement sur Firebase.",
+    code: "https://github.com/wendybaque/Marvel-Quiz-React",
+    page: "https://marvel-quiz-91110.web.app/",
+  },
+
+  {
+    id: 5,
+    title: "Redux Book",
+    img: "https://www.hebergeur-image.com/upload/88.174.47.6-6315fec888163.png",
+    techno: "React | Redux | fetch d'API | Bootstrap",
+    descr:
+      "Application de librairie, avec ajout, recherche et suppression de livres, réalisée dans le cadre du cours Udemy sur Redux.",
+    code: "https://github.com/wendybaque/React-Redux-Book-App",
+    page: "https://react-redux-book-app.vercel.app/",
+  },
+
+  {
+    id: 4,
     title: "Project for fun | English dictionnary",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-62df9faeb10b7.png",
     techno: "React | Tailwindcss | Fetch d'API",
@@ -131,27 +153,27 @@ const data = [
   },
 
 
-  {
-    id: 13,
-    title: "Workshop - Menu de restaurant",
-    img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a18381a86.png",
-    techno: "React props and state",
-    descr:
-      "Exercice d'études visant à mettre en pratique les props et le state de React pour créer un menu de restaurant dynamique en fonction des actions de l'utilisateur.",
-    code: "https://codesandbox.io/s/r27u2l?file=/public/index.html",
-    page: "https://r27u2l.csb.app/",
-  },
+  // {
+  //   id: 13,
+  //   title: "Workshop - Menu de restaurant",
+  //   img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a18381a86.png",
+  //   techno: "React props and state",
+  //   descr:
+  //     "Exercice d'études visant à mettre en pratique les props et le state de React pour créer un menu de restaurant dynamique en fonction des actions de l'utilisateur.",
+  //   code: "https://codesandbox.io/s/r27u2l?file=/public/index.html",
+  //   page: "https://r27u2l.csb.app/",
+  // },
 
-  {
-    id: 14,
-    title: "Workshop - Citations des Simpsons",
-    img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a1c1651ab.png",
-    techno: "React fetch, axios et API",
-    descr:
-      "Exercice d'études visant à fetcher les données d'une API avec React. Si l'on clique sur le bouton, une citation de Simpson aléatoire apparaît.",
-    code: "https://codesandbox.io/s/0b4euv",
-    page: "https://0b4euv.csb.app/",
-  },
+  // {
+  //   id: 14,
+  //   title: "Workshop - Citations des Simpsons",
+  //   img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a1c1651ab.png",
+  //   techno: "React fetch, axios et API",
+  //   descr:
+  //     "Exercice d'études visant à fetcher les données d'une API avec React. Si l'on clique sur le bouton, une citation de Simpson aléatoire apparaît.",
+  //   code: "https://codesandbox.io/s/0b4euv",
+  //   page: "https://0b4euv.csb.app/",
+  // },
 
   {
     id: 15,

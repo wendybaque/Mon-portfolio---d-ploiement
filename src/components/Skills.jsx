@@ -16,6 +16,8 @@ import bootstrap from "../assets/bootstrap.png";
 import styled from "../assets/styledcomponents.png";
 import glide from "../assets/glide.png";
 import dorik from "../assets/dorik.svg";
+import redux from '../assets/redux.png';
+import firebase from '../assets/firebase.png'
 
 import "./skills.css";
 
@@ -38,6 +40,10 @@ function Skills() {
         <div className="card" aria-label="skill card">
           <img src={react} alt="Logo React" className="skill-img" />
           <h3 className="skill-card-title">React.js</h3>
+        </div>
+        <div className="card" aria-label="skill card">
+          <img src={redux} alt="Logo Redux" className="skill-img" />
+          <h3 className="skill-card-title">Redux</h3>
         </div>
         <div className="card" aria-label="skill card">
           <img
@@ -82,6 +88,14 @@ function Skills() {
             className="skill-img"
           />
           <h1 className="skill-card-title">MongoDB</h1>
+        </div>
+        <div className="card" aria-label="skill card">
+          <img
+            src={firebase}
+            alt="Logo Firebase"
+            className="skill-img"
+          />
+          <h1 className="skill-card-title">Firebase</h1>
         </div>
         </div>
 
