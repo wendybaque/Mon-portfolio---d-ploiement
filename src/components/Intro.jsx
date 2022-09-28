@@ -10,7 +10,7 @@ function Intro() {
       <div className="intro-left">
         <div className="intro-left-wrapper" aria-label="Bloc de présentation de gauche avec texte d'introduction">
           <main>
-          <h2 className="intro-hello">Bienvenue !</h2>
+          <h2 className="intro-hello" id="Intro">Bienvenue !</h2>
           <h1 className="intro-name">
             {" "}
             Je suis <span>Wendy Baqué</span>

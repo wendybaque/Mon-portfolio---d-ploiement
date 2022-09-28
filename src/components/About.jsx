@@ -16,7 +16,7 @@ function About() {
         </div>
       </div>
       <div className="about-right" aria-label="Bloc de présentation des valeurs professionnelles de Wendy Baqué">
-        <h2 className="about-title">Qui suis-je ?</h2>
+        <h2 className="about-title" id="About">Qui suis-je ?</h2>
         <p className="about-subtitle">
           🚀 Les valeurs les plus importantes dans le monde du travail sont,
           selon moi, l&apos;entraide, l&apos;écoute, l&apos;expression de soi,

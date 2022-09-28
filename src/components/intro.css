@@ -81,6 +81,8 @@
   height: 100%;
   object-fit: cover;
   position: absolute;
+  z-index:22;
+
 }
 
 .intro-bg {
@@ -89,6 +91,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
+  z-index:22;
   top: 0;
   right: 0;
 }

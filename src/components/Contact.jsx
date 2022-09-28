@@ -41,7 +41,7 @@ function Contact() {
       <div className="contact-bg" />
       <div className="contact-wrapper">
         <div className="contact-left" aria-label="Panneau de gauche pour contacter Wendy Baqué">
-          <h2 className="contact-title">Contact</h2>
+          <h2 className="contact-title" id="Contact">Contact</h2>
           <div className="contact-info">
             <div className="contact-info-item">
               <img src={phone} alt="pictogtamme de téléphone" className="contact-icon" /> 06 98 15
