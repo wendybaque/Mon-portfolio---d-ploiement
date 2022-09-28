@@ -4,10 +4,19 @@ import "./projectcard.css";
 const data = [
   {
     id: 1,
-    title: "FedAlert' | fedmind",
+    title: "Application Fedmind",
+    img: "https://www.hebergeur-image.com/upload/88.174.47.6-63341e0c0f61e.png",
+    techno: "Non Code | Glide App",
+    descr:"Application Fedmind co-réalisée avec l'équipe de travail. Intégration d'outils no-code, onboarding par étapes, conditions de visibilités des éléments, etc.",
+    code: "cfvgbhnjkl",
+    page: "https://www.hebergeur-image.com/upload/88.174.47.6-63341e0c0f61e.png",
+  },
+  {
+    id: 1,
+    title: "FedAlert' | Fedmind",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-62fcef329c210.png",
     techno: "React | react-chatbot-kit",
-    descr:"Chatbot réalisé dans le cadre de mon stage chez Fedmind. edAlert' est une application permettant de désamorcer les crises du comportement alimentaire.",
+    descr:"Chatbot réalisé dans le cadre de mon stage chez Fedmind. FedAlert' est une application permettant de désamorcer les crises du comportement alimentaire.",
     code: "https://github.com/Fedmind/Fed-Alert-ChatBot-React",
     page: "https://fed-alert-chat-bot-react.vercel.app/",
   },
@@ -135,8 +144,8 @@ const data = [
   {
     id: 11,
     title: "Checkpoint 4 | Ma bibliothèque numérique",
-    img: "https://www.hebergeur-image.com/upload/176.154.198.164-62d80ecfaf04a.png",
-    techno: "React | Tailwindcss | Express/Node",
+    img: "https://www.hebergeur-image.com/upload/88.174.47.6-63341e52cedf5.png",
+    techno: "React | Tailwindcss | Express/Node | MySQL | Firebase",
     descr: "Exercice de fin d'études, mêlant toutes mes compétences en front-end et back-end pour créer mon blog de chroniqueuse littéraire. Création d'une bibliothèque numérique. En cours de déploiement du backend.",
     code: "https://github.com/wendybaque/Checkpoint-4",
     page: "https://checkpoint-4-wendybaque.vercel.app/",

@@ -24,7 +24,7 @@ import "./skills.css";
 function Skills() {
   return (
     <div className="skills" aria-label="Compétences techniques de Wendy Baqué">
-      <h1 className="skills-title">Mes compétences</h1>
+      <h2 className="skills-title">Mes compétences</h2>
       <div className="skill-card">
 
       <div className="skills-domain">
@@ -87,7 +87,7 @@ function Skills() {
             alt="Logo MongoDB"
             className="skill-img"
           />
-          <h1 className="skill-card-title">MongoDB</h1>
+          <h3 className="skill-card-title">MongoDB</h3>
         </div>
         <div className="card" aria-label="skill card">
           <img
@@ -95,7 +95,7 @@ function Skills() {
             alt="Logo Firebase"
             className="skill-img"
           />
-          <h1 className="skill-card-title">Firebase</h1>
+          <h3 className="skill-card-title">Firebase</h3>
         </div>
         </div>
 
@@ -145,7 +145,7 @@ function Skills() {
           <h2 className="skill-domain-title">Algorithmie</h2>
             <div className="codewars">
                 <img src={codewars} alt="badge codewars" className="codewars-img" aria-label="badge Codewars"/>
-                <a href="https://www.codewars.com/users/wendybaque" alt="redirection vers le site Codewars" target="_blank" rel="noreferrer"><h1 className="skill-card-title">Codewars : niveau et profil</h1></a>
+                <a href="https://www.codewars.com/users/wendybaque" alt="redirection vers le site Codewars" target="_blank" rel="noreferrer"><h4 className="skill-card-title">Codewars : niveau et profil</h4></a>
             </div>
         </div>
       </div>
