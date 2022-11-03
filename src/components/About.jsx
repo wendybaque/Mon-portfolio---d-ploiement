@@ -7,16 +7,32 @@ function About() {
   return (
     <div className="about">
       <div className="about-left">
-        <div className="about-card" aria-label="curriculum vitae de Wendy Baqué">
-          <img
-            src={cvportfolio}
-            alt="curriculum vitae"
-            className="about-img"
-          />
+        <div
+          className="about-card"
+          aria-label="curriculum vitae de Wendy Baqué"
+        >
+          <a
+            href="https://acrobat.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Abfcc556a-b98b-343b-8cbb-48dd4a840761&viewer%21megaVerb=group-discover"
+            alt="Téléchargez le cv de Wendy Baqué"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={cvportfolio}
+              alt="curriculum vitae"
+              className="about-img"
+            />
+            Téléchargez mon CV au format PDF.
+          </a>
         </div>
       </div>
-      <div className="about-right" aria-label="Bloc de présentation des valeurs professionnelles de Wendy Baqué">
-        <h2 className="about-title" id="About">Qui suis-je ?</h2>
+      <div
+        className="about-right"
+        aria-label="Bloc de présentation des valeurs professionnelles de Wendy Baqué"
+      >
+        <h2 className="about-title" id="About">
+          Qui suis-je ?
+        </h2>
         <p className="about-subtitle">
           🚀 Les valeurs les plus importantes dans le monde du travail sont,
           selon moi, l&apos;entraide, l&apos;écoute, l&apos;expression de soi,
@@ -33,11 +49,17 @@ function About() {
           <span className="spanabout">
             Motivée, rigoureuse, assidue et ponctuelle{" "}
           </span>
-          ,  <p>
-              je suis actuellement en stage chez Fedmind, une start-up géniale. Je les aide à développer leur application d'aide et d'accompagnement aux patients souffrant d'obésité. 
-            </p>
+          ,{" "}
+          <p>
+            je suis actuellement en stage chez Fedmind, une start-up géniale. Je
+            les aide à développer leur application d'aide et d'accompagnement
+            aux patients souffrant d'obésité.
+          </p>
         </p>
-        <div className="about-auteure-wrapper" aria-label="Présentation du travail d'auteure de romans de Wendy Baqué">
+        <div
+          className="about-auteure-wrapper"
+          aria-label="Présentation du travail d'auteure de romans de Wendy Baqué"
+        >
           <p className="about-auteure">
             📚 Je suis aussi auteure de 4 romans contemporains sur des
             thématiques qui me tiennent à coeur : la santé mentale,
@@ -50,7 +72,11 @@ function About() {
             l&apos; avec le <span className="spanabout">storytelling</span>{" "}
             lorsque j&apos; un projet à présenter aux clients et collaborateurs.{" "}
           </p>
-          <a href="https://linktr.ee/Antiigone" target="_blanck">
+          <a
+            href="https://linktr.ee/Antiigone"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={logoauteure}
               alt="logo officiel de l'auteure Wendy Baqué, créé par Linda Catherine, représentant le nom de l'auteure avec une guitare électrique et une plume d'écrivain"
