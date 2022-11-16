@@ -13,6 +13,24 @@ const data = [
   },
   {
     id: 2,
+    title: "Module Alerte - O Media",
+    img: "https://www.hebergeur-image.com/upload/37.169.170.102-6374dd4c03167.png",
+    techno: "React | react-chatbot-kit",
+    descr:"Chatbot réalisé dans le cadre de mon stage chez O Media. Adaptation à la nouvelle charte graphique, avec de nouveaux chemins et exercices pour les utilisateurs et intégration à la nouvelle application.",
+    code: "https://github.com/wendybaque/Module-Alert-Deploy",
+    page: "https://module-alert-deploy.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Social Media App",
+    img: "https://www.hebergeur-image.com/upload/37.169.170.102-6374dbe9c7392.png",
+    techno: "Reac Query | Sass | Express/Node | MySQL",
+    descr: "Application fullstack de réseau social pour mettre en pratique React Query et mettre en place des opérations CRUD avec tablea de jointure MySQL. En cours de déploiement backend.",
+    code: "https://github.com/wendybaque/Social-Media-App-Mysql",
+    page: "https://social-media-app-mysql.vercel.app/login",
+  },
+  {
+    id: 4,
     title: "Application Fedmind",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-63341e0c0f61e.png",
     techno: "No Code | Glide App",
@@ -21,7 +39,7 @@ const data = [
     page: "https://www.hebergeur-image.com/upload/88.174.47.6-63341e0c0f61e.png",
   },
   {
-    id: 3,
+    id: 5,
     title: "FedAlert' - Fedmind",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-62fcef329c210.png",
     techno: "React | react-chatbot-kit",
@@ -31,7 +49,7 @@ const data = [
   },
 
   {
-    id: 4,
+    id: 6,
     title: "Blog de chroniqueuse",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62d80df892b46.png",
     techno: "React | MongoDB ",
@@ -42,7 +60,7 @@ const data = [
   },
 
   {
-    id: 5,
+    id: 7,
     title: "Site d'auteure",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62d80e24d5f88.png",
     techno: "React | Tailwindcss",
@@ -53,7 +71,7 @@ const data = [
   },
 
   {
-    id: 6,
+    id: 8,
     title: "Marvel quiz",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-6316011f2e0ba.png",
     techno: "React | fetch d'API | Firebase",
@@ -64,7 +82,7 @@ const data = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Redux Book",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-6315fec888163.png",
     techno: "React | Redux | fetch d'API | Bootstrap",
@@ -75,7 +93,7 @@ const data = [
   },
 
   {
-    id: 8,
+    id: 10,
     title: "Project for fun - English dictionnary",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-62df9faeb10b7.png",
     techno: "React | Tailwindcss | Fetch d'API",
@@ -86,7 +104,7 @@ const data = [
   },
   
   {
-    id: 9,
+    id: 11,
     title: "Project for fun - List API",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-62df9fdb21e59.png",
     techno: "React | Tailwindcss | Font awesome | Fetch d'API",
@@ -98,7 +116,7 @@ const data = [
   
 
   {
-    id: 10,
+    id: 12,
     title: "Projet de groupe 1 - KodeWork",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a0f6b79f7.png",
     techno: "HTML5 | CSS3 | Javascript",
@@ -109,7 +127,7 @@ const data = [
   },
 
   {
-    id: 11,
+    id: 13,
     title: " Projet de groupe 2 - Mood, une application de choix",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a24c900a9.png",
     techno: "React & Hooks | API Rest",
@@ -120,7 +138,7 @@ const data = [
   },
 
   {
-    id: 12,
+    id: 14,
     title: "Projet de groupe 3 - Plateforme Rookies",
     img: "https://images.squarespace-cdn.com/content/v1/60de0a8851ebfc1f3d756b1d/23b99f13-8fd7-418e-b7db-fabda803b9c9/PNG-Transparent-high-resolution.png?format=1500w",
     techno: "React | Tailwind | Express.js | Node.js",
@@ -131,7 +149,7 @@ const data = [
   },
 
   {
-    id: 13,
+    id: 15,
     title: "Hackathon 1 - Save Ourselves",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62cee79a668dd.png",
     techno: "React & Hooks | API Rest | Tailwind",
@@ -142,7 +160,7 @@ const data = [
   },
 
   {
-    id: 14,
+    id: 16,
     title: "Hackathon 2 - Apside",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62bfc445c7374.png",
     techno: "React | Tailwindcss",
@@ -151,7 +169,7 @@ const data = [
     page: "ctf",
   },
   {
-    id: 15,
+    id: 17,
     title: "Checkpoint 4",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-63341e52cedf5.png",
     techno: "React | Tailwindcss | Express/Node | MySQL",
@@ -161,7 +179,7 @@ const data = [
   },
 
   {
-    id: 16,
+    id: 18,
     title: "Checkpoint 3",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62bfc6b11c249.png",
     techno: "MySQL | Express.js | Node.js | React",
@@ -194,7 +212,7 @@ const data = [
   // },
 
   {
-    id: 17,
+    id: 19,
     title: "Todolist - Bootstrap",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-62fcefff58994.png",
     techno: "Bootstrap | React",
@@ -205,7 +223,7 @@ const data = [
   },
 
   {
-    id: 18,
+    id: 20,
     title: "Workshop - Calculatrice",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62b2e8e0c8088.png",
     techno: "HTML | CSS | Javascript",
@@ -216,7 +234,7 @@ const data = [
   },
 
   {
-    id: 19,
+    id: 21,
     title: "Tech Challenge - entrée à la Wild Code School",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a2c1744bb.png",
     techno: "HTML5 | CSS3 | Javascript",
