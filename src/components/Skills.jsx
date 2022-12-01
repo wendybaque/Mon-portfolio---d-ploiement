@@ -20,6 +20,7 @@ import redux from "../assets/redux.png";
 import firebase from "../assets/firebase.png";
 import query from "../assets/react-query.png";
 import sass from "../assets/sass.png";
+import carrd from "../assets/carrd.png";
 
 import "./skills.css";
 
@@ -144,6 +145,10 @@ function Skills() {
           <div className="card" aria-label="skill card">
             <img src={dorik} alt="Logo Dorik" className="skill-img" />
             <h3 className="skill-card-title">Dorik.io</h3>
+          </div>
+          <div className="card" aria-label="skill card">
+            <img src={carrd} alt="Logo Carrd" className="skill-img" />
+            <h3 className="skill-card-title">Carrd.co</h3>
           </div>
         </div>
 

@@ -93,6 +93,17 @@ const data = [
   },
 
   {
+    id: 11,
+    title: "Project for fun - Christmas Card",
+    img: "https://www.hebergeur-image.com/upload/88.174.47.6-6388b4a58f8dd.png",
+    techno: "Javascript | HTML | CSS",
+    descr:
+      "Application basique en Javascript pour créer et personnaliser sa carte de Noël.",
+    code: "https://github.com/wendybaque/Christmas-card",
+    page: "https://christmas-card-zeta.vercel.app/",
+  },
+
+  {
     id: 10,
     title: "Project for fun - English dictionnary",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-62df9faeb10b7.png",
