@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +9,9 @@
   line-height: 1.5;
 }
 :root {
-  --color-light: aliceblue;
+  --color-light: #f9f8fd;
   --color-dark: #141414;
-  --first-color: #6096ba;
-  --second-color: #274c77;
-  --third-color: #a3cef1;
+  --first-color: #76d7c4;
+  --second-color: pink;
+  --third-color: #b6b1ab;
 }
