@@ -27,7 +27,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#intro"
-                  className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                  className="block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
                   aria-current="page"
                 >
                   Introduction
@@ -36,7 +36,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#about"
-                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
                 >
                   A propos
                 </a>
@@ -44,15 +44,15 @@ const Navbar = () => {
               <li>
                 <a
                   href="#skills"
-                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
                 >
                   Compétences
                 </a>
               </li>
               <li>
                 <a
-                  href="#projets"
-                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  href="#projects"
+                  className="block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
                 >
                   Projets
                 </a>
@@ -60,7 +60,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#contact"
-                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
                 >
                   Contact
                 </a>

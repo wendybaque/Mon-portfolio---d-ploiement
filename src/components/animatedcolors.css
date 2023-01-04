@@ -6,15 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.text-container:nth-child(1) {
-    border-radius:  10px 10px 0 0;
-    box-shadow: 12px 12px 22px #CFCFD3;
-}
-
-.text-container:nth-child(2) {
-    border-radius:  0 0 10px 10px;
+    border-radius:  10px;
     box-shadow: 12px 12px 22px #CFCFD3;
 }
 

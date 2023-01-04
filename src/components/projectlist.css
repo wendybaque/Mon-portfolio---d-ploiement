@@ -1,0 +1,46 @@
+.project {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+.project-list-texts {
+  width: 65%;
+}
+
+.project-list-title {
+  padding: 10px;
+  color: var(--second-color);
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.project-list-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.project-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .project-list {
+    padding: 10px;
+  }
+  .project-list-texts {
+    width: 100%;
+  }
+  .project-list-description {
+    display: none;
+  }
+}

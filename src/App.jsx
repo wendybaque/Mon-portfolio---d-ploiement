@@ -6,10 +6,13 @@ import ProjectList from "./components/ProjectList";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-import Section from "./components/Section";
+import SectionContact from "./components/SectionContact";
+import SectionSkills from "./components/SectionSkills";
+import SectionAbout from "./components/SectionAbout";
+import SectionProjects from "./components/SectionProjects";
+import Navbar from "./components/Navbar";
 
 import "./App.css";
-import Navbar from "./components/Navbar";
 
 function Home() {
   return (
@@ -17,13 +20,13 @@ function Home() {
       <Navbar />
       <Hero />
       <Intro />
-      <Section/>
+      <SectionAbout />
       <About />
-      <Section />
+      <SectionSkills />
       <Skills />
-      <Section />
+      <SectionProjects />
       <ProjectList />
-      <Section />
+      <SectionContact />
       <Contact />
       <Footer />
     </div>

@@ -11,11 +11,11 @@ function Intro() {
       <section className="basis-1/2 ml-10 p-6">
         <Fade cascade damping={0.5} duration={2000}>
           <h2 className="font-poppins font-bold text-2xl p-4">
-            Je suis <span className="text-sky-800">Wendy Baqué</span>
+            Je suis <span className="text-sky-800 animate-pulse">Wendy Baqué</span>
           </h2>
         </Fade>
         <h3 className="p-4">Développeuse Full Stack</h3>
-        <h3 className="p-4">
+        <h3 className="p-4 text-sky-800 font-bold">
           Javascript React.js | Node.js | Express.js | MySQL | Auteure de romans
         </h3>
         <p className="p-4">

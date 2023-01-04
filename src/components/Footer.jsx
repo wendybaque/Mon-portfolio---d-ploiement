@@ -11,7 +11,7 @@ function Footer() {
           alt="Retour en haut de la page"
         >
           <img src={Wendy} className="h-8 mr-3" alt="Wendy Baqué" />
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <span className="text-sm text-sky-800 sm:text-center dark:text-gray-400">
             Made with ❤️ by {" "}
             <a href="https://linktr.ee/wendybaque" className="hover:underline" alt="Linktree de Wendy Baqué">
               Wendy Baqué © 2022
@@ -24,8 +24,11 @@ function Footer() {
           
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
-              href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              href="https://www.facebook.com/AntiigoneWB"
+              alt="Facebook de Wendy Baqué"
+              target="_blank"
+              rel="noreferrer"
+              className="text-sky-800 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
                 className="w-5 h-5"
@@ -42,8 +45,11 @@ function Footer() {
               <span className="sr-only">Facebook page</span>
             </a>
             <a
-              href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              href="https://www.instagram.com/wendybqe/"
+              alt="Instagram de Wendy Baqué"
+              target="_blank"
+              rel="noreferrer"
+              className="text-sky-800 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
                 className="w-5 h-5"
@@ -60,8 +66,11 @@ function Footer() {
               <span className="sr-only">Instagram page</span>
             </a>
             <a
-              href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              href="https://github.com/wendybaque"
+              alt="Github de Wendy Baqué"
+              target="_blank"
+              rel="noreferrer"
+              className="text-sky-800 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
                 className="w-5 h-5"
