@@ -21,12 +21,13 @@ function Intro() {
         <p className="p-4">
           Après un bilan de compétences réalisé en full remote, je suis en
           reconversion professionnelle dans le domaine du développement web et
-          web mobile. 💻 A la suite de ma formation à la Wild Code School et un
+          web mobile. 
+        </p>
+        <p className="p-4">💻 A la suite de ma formation à la Wild Code School et un
           stage très enrichissant chez Fedmind et de bénévolat chez O Media,
           j'envisage de passer mon titre RNCP en février 2023, dans le but de
           créer ma propre entreprise qui vous proposera des solutions numériques
-          personnalisées, modernes et adaptées à vos besoins.
-        </p>
+          personnalisées, modernes et adaptées à vos besoins.</p>
       </section>
       <section className="basis-1/4 ml-10 p-6">
         <img src={Wendy} alt="Wendy Baqué" />

@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import emailjs from "@emailjs/browser";
 
 import mail from "../assets/mail.svg";
@@ -25,24 +24,22 @@ function Contact() {
       )
       .then(
         (result) => {
-          // eslint-disable-next-line no-restricted-syntax
           console.log(result.text);
           setDone(true);
         },
         (error) => {
-          // eslint-disable-next-line no-restricted-syntax
           console.log(error.text);
         }
       );
   };
   return (
     <div className="font-poppins flex flex-row" aria-label="Page de contact">
-      <section className="basis-1/3 ml-10 p-6" aria-label="Partie gauche de la page avec les coordonnées de contact de Wendy Baqué">
+      <section className="basis-1/3 ml-10 p-6 justify-center justify-items-center	justify-self-center	items-center place-content-center	place-items-center		" aria-label="Partie gauche de la page avec les coordonnées de contact de Wendy Baqué">
         <div>
           <img
             src={phone}
             alt="pictogtamme de téléphone"
-            className="w-24 h-24 m-4 p-4 "
+            className="w-24 h-24 m-4 p-4"
           />{" "}
           <p className="text-sky-800 text-left">06 98 15 71 13</p>
         </div>
