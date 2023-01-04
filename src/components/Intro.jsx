@@ -7,7 +7,7 @@ import github from "../assets/github.svg";
 
 function Intro() {
   return (
-    <div id="intro" className="font-poppins flex flex-row">
+    <div id="intro" className="font-poppins flex flex-row" aria-label="Introduction du site">
       <section className="basis-1/2 ml-10 p-6">
         <Fade cascade damping={0.5} duration={2000}>
           <h2 className="font-poppins font-bold text-2xl p-4">

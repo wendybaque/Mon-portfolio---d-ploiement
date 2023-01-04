@@ -4,8 +4,7 @@ import "./animatedcolors.css";
 const AnimatedColourText = () => {
   return (
     <>
-      {/* BIENVENUE */}
-      <div className="text-container">
+      <div className="text-container" aria-label="Animation de texte multicolore">
         <ul className="text-ul">
           <li className="text-li">
             <div className="text-div">B</div>

@@ -273,8 +273,8 @@ const data = [
 
 export default function ProjectCard() {
   return (
-    <div className="" id="cards">
-      <div className="grid grid-rows-4 grid-flow-col gap-4">
+    <div aria-label="cartes des projets de Wendy Baqué">
+      <div className="grid grid-rows-5 grid-flow-col gap-6 sm:grid-flow-col md:grid-flow-col">
         {data.map((d) => (
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
             <img className="rounded-t-lg h-64 w-full" src={d.img} alt="" />
@@ -285,22 +285,28 @@ export default function ProjectCard() {
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                 {d.descr}
               </p>
-              <a
-                href={d.code}
-                target="_blank"
-                rel="noreferrer"
-                className="m-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Voir le code
-              </a>
-              <a
-                href={d.page}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Voir le site
-              </a>
+              <div className="flex flex-col items-center">
+                <button className="pb-4">
+                  <a
+                    href={d.code}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  >
+                    Voir le code
+                  </a>
+                </button>
+                <button>
+                  <a
+                    href={d.page}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  >
+                    Voir le site
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
         ))}

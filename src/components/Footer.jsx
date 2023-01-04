@@ -3,7 +3,7 @@ import Wendy from "../assets/photocv.png";
 
 function Footer() {
   return (
-    <footer className="p-4 bg-slate-50 sm:p-6 dark:bg-gray-900 font-poppins">
+    <footer aria-label="Pied de page" className="p-4 bg-slate-50 sm:p-6 dark:bg-gray-900 font-poppins">
       <div className="md:flex md:justify-between">
         <a
           href="/"

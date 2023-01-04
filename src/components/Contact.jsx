@@ -36,8 +36,8 @@ function Contact() {
       );
   };
   return (
-    <div className="font-poppins flex flex-row">
-      <section className="basis-1/3 ml-10 p-6">
+    <div className="font-poppins flex flex-row" aria-label="Page de contact">
+      <section className="basis-1/3 ml-10 p-6" aria-label="Partie gauche de la page avec les coordonnées de contact de Wendy Baqué">
         <div>
           <img
             src={phone}

@@ -6,6 +6,7 @@ const Navbar = () => {
     <div>
       <nav
         role="navigation"
+        aria-label="Barre de navigation"
         className="bg-slate-50 border-slate-100 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900"
       >
         <div className=" font-poppins  container flex flex-wrap items-center justify-between mx-auto">

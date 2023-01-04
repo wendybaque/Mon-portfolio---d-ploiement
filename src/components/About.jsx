@@ -5,7 +5,7 @@ import cvportfolio from "../assets/newcv.png";
 
 function About() {
   return (
-    <div id="about" className="font-poppins flex flex-row">
+    <div id="about" className="font-poppins flex flex-row" aria-label="Page de présentation de Wendy Baqué">
       <section className="basis-1/2 ml-10 p-6">
         <Fade cascade damping={0.5} duration={2000}>
           <p className="font-poppins p-4">
