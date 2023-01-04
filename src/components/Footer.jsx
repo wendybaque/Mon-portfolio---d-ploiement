@@ -6,7 +6,7 @@ function Footer() {
     <footer className="p-4 bg-slate-50 sm:p-6 dark:bg-gray-900 font-poppins">
       <div className="md:flex md:justify-between">
         <a
-          href="#"
+          href="/"
           className="flex items-center"
           alt="Retour en haut de la page"
         >
