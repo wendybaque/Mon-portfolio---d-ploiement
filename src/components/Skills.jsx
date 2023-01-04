@@ -9,7 +9,6 @@ import github from "../assets/LogoGithub.png";
 import marvel from "../assets/LogoMarvel.png";
 import react from "../assets/LogoReact.png";
 import tailwind from "../assets/LogoTailwindcss.png";
-import codewars from "../assets/codewars.svg";
 import mysql from "../assets/mysql.png";
 import mongodb from "../assets/mongodb.png";
 import bootstrap from "../assets/bootstrap.png";
@@ -21,156 +20,77 @@ import firebase from "../assets/firebase.png";
 import query from "../assets/react-query.png";
 import sass from "../assets/sass.png";
 import carrd from "../assets/carrd.png";
-
-import "./skills.css";
+import wordpress from "../assets/LogoWordpress.png";
 
 function Skills() {
   return (
-    <div className="skills" aria-label="Compétences techniques de Wendy Baqué">
-      <h2 className="skills-title" id="Skills">
-        Mes compétences
-      </h2>
-      <div className="skill-card">
-        <div className="skills-domain">
-          <h2 className="skill-domain-title">Front-end</h2>
-          <div className="card" aria-label="skill card">
-            <img src={htmlcss} alt="Logo HTML et CSS" className="skill-img" />
-            <h3 className="skill-card-title">HTML5 + CSS3</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img src={javascript} alt="Logo Javascript" className="skill-img" />
-            <h3 className="skill-card-title">Javascript</h3>
-          </div>
-        </div>
-
-        <div className="skills-domain">
-          <h2 className="skill-domain-title">Back-end</h2>
-          <div className="card" aria-label="skill card">
-            <img
-              src={expressnode}
-              alt="Logo Express et Node"
-              className="skill-img"
-            />
-            <h3 className="skill-card-title">Express.js et Node.js</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img src={mysql} alt="Logo MySQL" className="skill-img" />
-            <h3 className="skill-card-title">MySQL</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img src={mongodb} alt="Logo MongoDB" className="skill-img" />
-            <h3 className="skill-card-title">MongoDB</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img src={firebase} alt="Logo Firebase" className="skill-img" />
-            <h3 className="skill-card-title">Firebase</h3>
-          </div>
-        </div>
-
-        <div className="skills-domain">
-          <h2 className="skill-domain-title">React</h2>
-
-          <div className="card" aria-label="skill card">
-            <img src={react} alt="Logo React" className="skill-img" />
-            <h3 className="skill-card-title">React.js</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img src={redux} alt="Logo Redux" className="skill-img" />
-            <h3 className="skill-card-title">Redux</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img src={query} alt="Logo React Query" className="skill-img" />
-            <h3 className="skill-card-title">React Query</h3>
-          </div>
-        </div>
-
-        <div className="skills-domain">
-          <h2 className="skill-domain-title">Style</h2>
-          <div className="card" aria-label="skill card">
-            <img src={tailwind} alt="Logo tailwind" className="skill-img" />
-            <h3 className="skill-card-title">Tailwindcss</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img src={bootstrap} alt="Logo Bootstrap" className="skill-img" />
-            <h3 className="skill-card-title">Bootstrap</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img
-              src={styled}
-              alt="Logo Styled components"
-              className="skill-img"
-            />
-            <h3 className="skill-card-title">Styled Components</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img src={sass} alt="Logo Sass" className="skill-img" />
-            <h3 className="skill-card-title">Sass/Scss</h3>
-          </div>
-        </div>
-
-        <div className="skills-domain">
-          <h2 className="skill-domain-title">Versioning</h2>
-          <div className="card" aria-label="skill card">
-            <img src={git} alt="Logo git" className="skill-img" />
-            <h3 className="skill-card-title">Git</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img src={github} alt="Logo Github" className="skill-img" />
-            <h3 className="skill-card-title">Github</h3>
-          </div>
-        </div>
-
-        <div className="skills-domain">
-          <h2 className="skill-domain-title">Design</h2>
-          <div className="card" aria-label="skill card">
-            <img src={canva} alt="Logo Canva" className="skill-img" />
-            <h3 className="skill-card-title">Canva</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img src={figma} alt="Logo Figma" className="skill-img" />
-            <h3 className="skill-card-title">Figma</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img src={marvel} alt="Logo Marvel" className="skill-img" />
-            <h3 className="skill-card-title">Marvel app</h3>
-          </div>
-        </div>
-
-        <div className="skills-domain">
-          <h2 className="skill-domain-title">No Code</h2>
-          <div className="card" aria-label="skill card">
-            <img src={glide} alt="Logo Glide apps" className="skill-img" />
-            <h3 className="skill-card-title">Glide apps</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img src={dorik} alt="Logo Dorik" className="skill-img" />
-            <h3 className="skill-card-title">Dorik.io</h3>
-          </div>
-          <div className="card" aria-label="skill card">
-            <img src={carrd} alt="Logo Carrd" className="skill-img" />
-            <h3 className="skill-card-title">Carrd.co</h3>
-          </div>
-        </div>
-
-        <div className="skills-domain">
-          <h2 className="skill-domain-title">Algorithmie</h2>
-          <div className="codewars">
-            <img
-              src={codewars}
-              alt="badge codewars"
-              className="codewars-img"
-              aria-label="badge Codewars"
-            />
-            <a
-              href="https://www.codewars.com/users/wendybaque"
-              alt="redirection vers le site Codewars"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h4 className="skill-card-title">Codewars : niveau et profil</h4>
-            </a>
-          </div>
-        </div>
+    <div id="skills" className="ml-10 p-6 grid grid-col-6 grid-flow-col gap-12 justify-around justify-items-center	">
+      <div>
+        <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">
+          Frontend
+        </h3>
+        <img src={htmlcss} alt="Html et Css" className="w-36" />
+        <p className="font-poppins p-2 text-center">HTML5 et CSS3</p>
+        <img src={javascript} alt="Javascript" className="w-36" />
+        <p className="font-poppins p-2 text-center">Javascript</p>
+      </div>
+      <div>
+        <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">Backend</h3>
+        <img src={expressnode} alt="Express et Node" className="w-36" />
+        <p className="font-poppins p-2 text-center">Express.js & Node.js</p>
+        <img src={mysql} alt="MySQL" className="w-36" />
+        <p className="font-poppins p-2 text-center">MySQL</p>
+        <img src={mongodb} alt="MongoDB" className="w-36" />
+        <p className="font-poppins p-2 text-center">MongoDB</p>
+        <img src={firebase} alt="Firebase" className="w-36" />
+        <p className="font-poppins p-2 text-center">Firebase</p>
+      </div>
+      <div>
+        <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">React</h3>
+        <img src={react} alt="React" className="w-36" />
+        <p className="font-poppins p-2 text-center">React.js</p>
+        <img src={redux} alt="React Redux" className="w-36" />
+        <p className="font-poppins p-2 text-center">React Redux</p>
+        <img src={query} alt="React Query" className="w-36" />
+        <p className="font-poppins p-2 text-center">React Query</p>
+      </div>
+      <div>
+        <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">Style</h3>
+        <img src={tailwind} alt="Tailwindcss" className="w-36" />
+        <p className="font-poppins p-2 text-center">Tailwindcss</p>
+        <img src={bootstrap} alt="Bootstrap" className="w-36" />
+        <p className="font-poppins p-2 text-center">Bootstrap</p>
+        <img src={styled} alt="Styled components" className="w-36" />
+        <p className="font-poppins p-2 text-center">Styled components</p>
+        <img src={sass} alt="Sass" className="w-36" />
+        <p className="font-poppins p-2 text-center">Sass</p>
+      </div>
+      <div>
+        <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">Design</h3>
+        <img src={canva} alt="Canva" className="w-36" />
+        <p className="font-poppins p-2 text-center">Canva</p>
+        <img src={figma} alt="Figma" className="w-36" />
+        <p className="font-poppins p-2 text-center">Figma</p>
+        <img src={marvel} alt="Marvel app" className="w-36" />
+        <p className="font-poppins p-2 text-center">Marvel App</p>
+      </div>
+      <div>
+        <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">Versioning</h3>
+        <img src={github} alt="Github" className="w-36" />
+        <p className="font-poppins p-2 text-center">Github</p>
+        <img src={git} alt="Git" className="w-36" />
+        <p className="font-poppins p-2 text-center">Git</p>
+      </div>
+      <div>
+        <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">No Code</h3>
+        <img src={glide} alt="Glide App" className="w-36" />
+        <p className="font-poppins p-2 text-center">Glide App</p>
+        <img src={carrd} alt="Carrd.io" className="w-36" />
+        <p className="font-poppins p-2 text-center">Carrd.io</p>
+        <img src={dorik} alt="Dorik.io" className="w-36" />
+        <p className="font-poppins p-2 text-center">Dorik.io</p>
+        <img src={wordpress} alt="Wordpress" className="w-36" />
+        <p className="font-poppins p-2 text-center">Wordpress</p>
       </div>
     </div>
   );

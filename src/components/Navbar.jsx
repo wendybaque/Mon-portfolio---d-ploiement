@@ -12,48 +12,48 @@ const Navbar = () => {
               className="h-6 mr-3 sm:h-9"
               alt="Wendy Baqué"
             />
-            <span className="font-poppins text-slate-500 self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="font-poppins text-sky-800 self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               Wendy Baqué
             </span>
           </a>
-          <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+          <div className="drop-shadow-2xl	hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <a
-                  href="#"
+                  href="#intro"
                   className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                   aria-current="page"
                 >
-                  Home
+                  Introduction
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#about"
                   className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
-                  About
+                  A propos
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#skills"
                   className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
-                  Services
+                  Compétences
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#projets"
                   className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
-                  Pricing
+                  Projets
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#contact"
                   className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Contact

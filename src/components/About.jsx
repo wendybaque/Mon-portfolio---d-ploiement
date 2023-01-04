@@ -1,90 +1,130 @@
 import React from "react";
-import "./about.css";
-import cvportfolio from "../assets/cv.png";
-import logoauteure from "../assets/logoauteure.png";
+import { Fade } from "react-awesome-reveal";
+
+import cvportfolio from "../assets/newcv.png";
 
 function About() {
   return (
-    <div className="about">
-      <div className="about-left">
-        <div
-          className="about-card"
-          aria-label="curriculum vitae de Wendy Baqué"
-        >
+    <div id="about" className="font-poppins flex flex-row">
+      <section className="basis-1/2 ml-10 p-6">
+        <Fade cascade damping={0.5} duration={2000}>
+          <p className="font-poppins p-4">
+            ✨ Je suis une personne{" "}
+            <span className="font-bold text-sky-800">rigoureuse</span>, ce qui
+            me permet de mener à bien mes projets et activités confiées de A à Z
+            et de bien gérer mon temps de travail. Je fais également preuve de{" "}
+            <span className="font-bold text-sky-800">
+              créativité et d'imaginativité
+            </span>
+            , ce qui me pousse à trouver des{" "}
+            <span className="font-bold text-sky-800">
+              solutions innovantes et originales
+            </span>{" "}
+            pour répondre aux besoins des clients.
+          </p>
+          <p className="font-poppins p-4">
+            ✨Soucieuse d’améliorer ma pratique dans un monde en constante
+            évolution, je sais faire preuve d’
+            <span className="font-bold text-sky-800">adaptabilité</span>, comme
+            le prouve ma reconversion professionnelle dans un domaine totalement
+            nouveau pour moi.
+          </p>
+          <p className="font-poppins  p-4">
+            ✨ Etre <span className="font-bold text-sky-800">autonome</span>{" "}
+            dans ma pratique est important pour moi afin d'envisager tous les
+            possibles qui s'offrent à moi et repose avant tout sur un{" "}
+            <span className="font-bold text-sky-800">climat de confiance</span>{" "}
+            établi avec le client. Lui être utile apparaît aussi primordial pour
+            donner un sens à mon travail.
+          </p>
+          <p className="font-poppins p-4">
+            ✨ Enfin, ma{" "}
+            <span className="font-bold text-sky-800">curiosité</span> me donne
+            un goût certain pour l'apprentissage et l'actualisation de mes
+            acquis dans un monde en constante évolution.
+          </p>
+          <p className="font-poppins p-4">
+            🎯 Ainsi, mon{" "}
+            <span className="font-bold text-sky-800">objectif</span> est de
+            m'épanouir dans un métier porteur d'avenir et de sens, me permettant
+            de mettre à profit mes points forts au service de mes clients, de
+            mes collaborateurs et de votre entreprise.
+          </p>
+          <p className="font-poppins p-4">
+            🚀 Les valeurs les plus importantes dans le monde du travail sont,
+            selon moi,{" "}
+            <span className="font-bold text-sky-800">
+              l’entraide, l’écoute, l’expression de soi, l’épanouissement et la
+              réussite.
+            </span>
+          </p>
+          <p className="font-poppins p-4">
+            📚 Je suis aussi auteure de{" "}
+            <span className="font-bold text-sky-800">
+              4 romans contemporains
+            </span>{" "}
+            sur des thématiques qui me tiennent à coeur : la santé mentale,
+            l'acceptation de soi, la quête de sens, la Vie, la musique et la fin
+            de vie. Cela me permet de développer des compétences
+            organisationnelles, de maîtriser les normes rédactionnelles et,
+            surtout, d'être à l' avec le{" "}
+            <span className="font-bold text-sky-800">storytelling</span> lorsque
+            j' un projet à présenter aux clients et collaborateurs.
+          </p>
           <a
-            href="https://acrobat.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Abfcc556a-b98b-343b-8cbb-48dd4a840761&viewer%21megaVerb=group-discover"
-            alt="Téléchargez le cv de Wendy Baqué"
+            href="https://site-auteure.vercel.app/"
+            alt="Se rendre sur le site de Wendy Baqué, auteure de romans"
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src={cvportfolio}
-              alt="curriculum vitae"
-              className="about-img"
-            />
-            Téléchargez mon CV au format PDF.
+            <button className="bg-sky-800 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded-lg m-2 p-2">
+              Voir mon site d'auteure
+            </button>
           </a>
-        </div>
-      </div>
-      <div
-        className="about-right"
-        aria-label="Bloc de présentation des valeurs professionnelles de Wendy Baqué"
-      >
-        <h2 className="about-title" id="About">
-          Qui suis-je ?
-        </h2>
-        <p className="about-subtitle">
-          🚀 Les valeurs les plus importantes dans le monde du travail sont,
-          selon moi, l&apos;entraide, l&apos;écoute, l&apos;expression de soi,
-          l&apos;épanouissement et la réussite.
-        </p>
-        <p className="about-description">
-          ➕ Mon petit plus ? Je suis développeuse, mais aussi psychologue !
-          Ainsi, je suis attirée par l&apos;UX et l&apos;UI. Ce sont des
-          domaines qui me parlent, et qui me tiennent toujours à cœur. Mon
-          regard est un bonus :{" "}
-          <span className="spanabout">100% user first ! </span>
-        </p>
-        <p className="about-description">
-          <span className="spanabout">
-            Motivée, rigoureuse, assidue et ponctuelle{" "}
-          </span>
-          ,{" "}
-          <p>
-            je suis actuellement en stage chez Fedmind, une start-up géniale. Je
-            les aide à développer leur application d'aide et d'accompagnement
-            aux patients souffrant d'obésité.
+          <p className="font-poppins p-12">
+            ➕{" "}
+            <span className="font-bold text-sky-800 animate-pulse">
+              Mon petit plus ?
+            </span>
+            Je suis développeuse, mais aussi psychologue ! Ainsi, tout
+            naturellement, je suis attirée par l' UX et l' UI. C'est un domaine
+            qui me parle, et qui me tient toujours à cœur. Mon regard est un
+            bonus : 100% user first et centrage sur l'accessibilité !
           </p>
-        </p>
-        <div
-          className="about-auteure-wrapper"
-          aria-label="Présentation du travail d'auteure de romans de Wendy Baqué"
+          <p className="font-poppins p-12">
+            ➕{" "}
+            <span className="font-bold text-sky-800 animate-pulse">
+              Mon autre petit plus ?{" "}
+            </span>
+            Je suis no code friendly ! Face à la demande croissante sur des
+            outils de solutions en ligne clés en mains comme Wordpress,
+            Carrds.io, Zapier ou Glide apps, ainsi que Firebase et MongoDB pour
+            vos bases de données.
+          </p>
+          <p className="font-poppins p-4">
+            🗺️ Habituée au télétravail et résidant vers{" "}
+            <span className="font-bold text-sky-800">Tours (37)</span>, cela
+            reste l'une de mes priorités.
+          </p>
+        </Fade>
+      </section>
+      <section className="basis-1/2 ml-10 p-6 flex flex-col">
+        <img
+          src={cvportfolio}
+          alt="curriculum vitae de Wendy Baqué"
+          className="rounded-lg drop-shadow-2xl"
+        />
+        <a
+          href="https://acrobat.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A9722f08a-cf74-31a2-9773-66bfaacac55f&viewer%21megaVerb=group-discover"
+          alt="Télécharger le CV de Wendy Baqué"
+          target="_blank"
+          rel="noreferrer"
         >
-          <p className="about-auteure">
-            📚 Je suis aussi auteure de 4 romans contemporains sur des
-            thématiques qui me tiennent à coeur : la santé mentale,
-            l&apos;acceptation de soi, la quête de sens, la Vie, la musique et
-            la fin de vie.
-          </p>
-          <p className="about-auteure">
-            Cela me permet de développer des compétences organisationnelles, de
-            maîtriser les normes rédactionnelles et, surtout, d&apos;être à
-            l&apos; avec le <span className="spanabout">storytelling</span>{" "}
-            lorsque j&apos; un projet à présenter aux clients et collaborateurs.{" "}
-          </p>
-          <a
-            href="https://linktr.ee/Antiigone"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src={logoauteure}
-              alt="logo officiel de l'auteure Wendy Baqué, créé par Linda Catherine, représentant le nom de l'auteure avec une guitare électrique et une plume d'écrivain"
-              className="about-auteure-img"
-            />
-          </a>
-        </div>
-      </div>
+          <button className="flex place-self-center w-32 bg-sky-800 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded-lg m-2 p-2">
+            Télécharger mon CV
+          </button>
+        </a>
+      </section>
     </div>
   );
 }

@@ -17,7 +17,7 @@ function Home() {
       <Navbar />
       <Hero />
       <Intro />
-      <Section />
+      <Section/>
       <About />
       <Section />
       <Skills />

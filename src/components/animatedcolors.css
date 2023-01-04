@@ -10,12 +10,12 @@
 
 .text-container:nth-child(1) {
     border-radius:  10px 10px 0 0;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 12px 12px 22px #CFCFD3;
 }
 
 .text-container:nth-child(2) {
     border-radius:  0 0 10px 10px;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 12px 12px 22px #CFCFD3;
 }
 
 .text-ul {
