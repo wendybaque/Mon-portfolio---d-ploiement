@@ -52,13 +52,6 @@
   width: 75%;
 }
 
-a:hover {
-  color: #141414;
-}
-
-a:visited {
-  color: var(--second-color);
-}
 
 .contact-button {
   transform: scale(1);

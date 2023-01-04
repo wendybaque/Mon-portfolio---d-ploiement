@@ -1,5 +1,4 @@
 import React from "react";
-import "./projectcard.css";
 
 const data = [
   {
@@ -7,7 +6,8 @@ const data = [
     title: "Ma bibliothèque numérique",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-636384ef6e5e7.png",
     techno: "React | Tailwindcss | Express/Node | MySQL",
-    descr: "Projet présenté lors de mon passage de diplôme RNCP, mêlant toutes mes compétences en front-end et back-end pour créer une application responsive de gestion de lectures, avec authentification et base de données. En cours de déploiement backend.",
+    descr:
+      "Projet présenté lors de mon passage de diplôme RNCP, mêlant toutes mes compétences en front-end et back-end pour créer une application responsive de gestion de lectures, avec authentification et base de données. En cours de déploiement backend.",
     code: "https://github.com/wendybaque/Ma-bibliotheque-numerique",
     page: "https://mabibliothequenumerique.vercel.app/",
   },
@@ -16,16 +16,18 @@ const data = [
     title: "Module Alerte - O Media",
     img: "https://www.hebergeur-image.com/upload/37.169.170.102-6374dd4c03167.png",
     techno: "React | react-chatbot-kit",
-    descr:"Chatbot réalisé dans le cadre de mon stage chez O Media. Adaptation à la nouvelle charte graphique, avec de nouveaux chemins et exercices pour les utilisateurs et intégration à la nouvelle application.",
+    descr:
+      "Chatbot réalisé dans le cadre de mon stage chez O Media. Adaptation à la nouvelle charte graphique, avec de nouveaux chemins et exercices pour les utilisateurs et intégration à la nouvelle application.",
     code: "https://github.com/wendybaque/Module-Alert-Deploy",
     page: "https://module-alert-deploy.vercel.app/",
   },
-    {
+  {
     id: 3,
     title: "Happy Frontend Component",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-639ae7498ff6b.png",
     techno: "React | Tailwind | HTML & CSS",
-    descr: "Répertoire de componsants front-end pour illustrer mes compétences.",
+    descr:
+      "Répertoire de componsants front-end pour illustrer mes compétences.",
     code: "https://github.com/wendybaque/Happy-Frontend-Components",
     page: "https://happy-frontend-components.vercel.app/",
   },
@@ -34,7 +36,8 @@ const data = [
     title: "Social Media App",
     img: "https://www.hebergeur-image.com/upload/37.169.170.102-6374dbe9c7392.png",
     techno: "React Query | Sass | Express/Node | MySQL",
-    descr: "Application fullstack de réseau social pour mettre en pratique React Query et mettre en place des opérations CRUD avec tablea de jointure MySQL. En cours de déploiement backend.",
+    descr:
+      "Application fullstack de réseau social pour mettre en pratique React Query et mettre en place des opérations CRUD avec tablea de jointure MySQL. En cours de déploiement backend.",
     code: "https://github.com/wendybaque/Social-Media-App-Mysql",
     page: "https://social-media-app-mysql.vercel.app/login",
   },
@@ -43,7 +46,8 @@ const data = [
     title: "Application Fedmind",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-63341e0c0f61e.png",
     techno: "No Code | Glide App",
-    descr:"Application Fedmind co-réalisée avec l'équipe de travail. Intégration d'outils no-code, onboarding par étapes, conditions de visibilités des éléments, etc.",
+    descr:
+      "Application Fedmind co-réalisée avec l'équipe de travail. Intégration d'outils no-code, onboarding par étapes, conditions de visibilités des éléments, etc.",
     code: "cfvgbhnjkl",
     page: "https://www.hebergeur-image.com/upload/88.174.47.6-63341e0c0f61e.png",
   },
@@ -52,7 +56,8 @@ const data = [
     title: "FedAlert' - Fedmind",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-62fcef329c210.png",
     techno: "React | react-chatbot-kit",
-    descr:"Chatbot réalisé dans le cadre de mon stage chez Fedmind. FedAlert' est une application permettant de désamorcer les crises du comportement alimentaire.",
+    descr:
+      "Chatbot réalisé dans le cadre de mon stage chez Fedmind. FedAlert' est une application permettant de désamorcer les crises du comportement alimentaire.",
     code: "https://github.com/Fedmind/Fed-Alert-ChatBot-React",
     page: "https://fed-alert-chat-bot-react.vercel.app/",
   },
@@ -122,7 +127,7 @@ const data = [
     code: "https://github.com/wendybaque/Fun-dictionnary",
     page: "https://fun-dictionnary.vercel.app/",
   },
-  
+
   {
     id: 11,
     title: "Project for fun - List API",
@@ -133,7 +138,6 @@ const data = [
     code: "https://github.com/wendybaque/Fun-API-list",
     page: "https://fun-api-list.vercel.app/",
   },
-  
 
   {
     id: 12,
@@ -152,7 +156,7 @@ const data = [
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62a9a24c900a9.png",
     techno: "React & Hooks | API Rest",
     descr:
-      "Site internet responsive permettant de fair une association entre films et pizzas, si on ne sait pas quoi regarder ou si on hésite sur la composition de notre pizza ! Un peu de fun pour tester en groupe toutes les fonctionnalités qu'offre React.",
+      "Site internet responsive permettant d'associer films et pizzas, si on ne sait pas quoi regarder ou si on hésite sur la composition de notre pizza ! Un peu de fun pour tester en groupe toutes les fonctionnalités qu'offre React.",
     code: "https://github.com/WildCodeSchool/2022-03-RemoteJS-Erreur404-tortues-ninjas",
     page: "https://mood-une-application-de-choix.netlify.app/home",
   },
@@ -184,7 +188,8 @@ const data = [
     title: "Hackathon 2 - Apside",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62bfc445c7374.png",
     techno: "React | Tailwindcss",
-    descr: "Hackathon de 72h pour l'entreprise Apside, par groupe de 5 développeurs, sur tous les campus de la Wild Code School. Plateforme de gestion de projets en interne.",
+    descr:
+      "Hackathon de 72h pour l'entreprise Apside, par groupe de 5 développeurs, sur tous les campus de la Wild Code School. Plateforme de gestion de projets en interne.",
     code: "https://github.com/Damien-Dupont/hackathon2",
     page: "ctf",
   },
@@ -193,7 +198,8 @@ const data = [
     title: "Checkpoint 4",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-63341e52cedf5.png",
     techno: "React | Tailwindcss | Express/Node | MySQL",
-    descr: "Exercice de fin d'études, mêlant toutes mes compétences en front-end et back-end pour créer une application de gestion de lectures. Prémices de mon projet de présentation pour le diplôme RNCP.",
+    descr:
+      "Exercice de fin d'études, mêlant toutes mes compétences en front-end et back-end pour créer une application de gestion de lectures. Prémices de mon projet de présentation pour le diplôme RNCP.",
     code: "https://github.com/wendybaque/Checkpoint-4",
     page: "https://checkpoint-4-wendybaque.vercel.app/",
   },
@@ -203,11 +209,11 @@ const data = [
     title: "Checkpoint 3",
     img: "https://www.hebergeur-image.com/upload/176.154.198.164-62bfc6b11c249.png",
     techno: "MySQL | Express.js | Node.js | React",
-    descr: "Exercice d'études, création d'un jeu de recherche de trésor sur une carte, dans le but de valider mes acquis en développement back-end.",
+    descr:
+      "Exercice d'études, création d'un jeu de recherche de trésor sur une carte, dans le but de valider mes acquis en développement back-end.",
     code: "https://github.com/wendybaque/Checkpoint-3",
     page: "ctf",
   },
-
 
   // {
   //   id: 13,
@@ -267,31 +273,34 @@ const data = [
 
 export default function ProjectCard() {
   return (
-    <div className="cards" id="cards">
-      <div className="cards-container">
+    <div className="" id="cards">
+      <div className="grid grid-rows-4 grid-flow-col gap-4">
         {data.map((d) => (
-          <div className="card-project" aria-label="carte de projets réalisés par Wendy Baqué">
-            <div className="top" aria-label="au de la carte projet avec leurs logos">
-              <h2 className="card-title">{d.title}</h2>
-              <img src={d.img} alt="logo du projet réalisé par Wendy Baqué" className="card-img" />
-            </div>
-            <div className="center" aria-label="centre de la carte projet">
-              <h3>{d.techno}</h3>
-              <p>{d.descr}</p>
-            </div>
-            <div className="bottom">
-              <div className="project-card-links" aria-label="bas de la carte avec liens vers le code et les sites">
-                <div className="links-github">
-                  <a href={d.code} target="_blank" rel="noreferrer">
-                    Voir le code
-                  </a>
-                </div>
-                <div className="links-page">
-                  <a href={d.page} target="_blank" rel="noreferrer">
-                    Voir le site
-                  </a>
-                </div>
-              </div>
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
+            <img className="rounded-t-lg h-64 w-full" src={d.img} alt="" />
+            <div className="p-5">
+              <h5 className="font-poppins text-center text-2xl tracking-tight text-gray-900 dark:text-white">
+                {d.title}
+              </h5>
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                {d.descr}
+              </p>
+              <a
+                href={d.code}
+                target="_blank"
+                rel="noreferrer"
+                className="m-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Voir le code
+              </a>
+              <a
+                href={d.page}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Voir le site
+              </a>
             </div>
           </div>
         ))}

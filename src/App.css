@@ -8,10 +8,3 @@
   box-sizing: border-box;
   line-height: 1.5;
 }
-:root {
-  --color-light: #f9f8fd;
-  --color-dark: #141414;
-  --first-color: #76d7c4;
-  --second-color: #274C77;
-  --third-color: #b6b1ab;
-}
