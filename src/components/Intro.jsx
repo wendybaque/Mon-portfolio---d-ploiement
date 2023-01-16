@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 
-import Wendy from "../assets/photocv.png";
+import Wendy from "../assets/wendycarré.png";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
 
@@ -29,10 +29,10 @@ function Intro() {
           créer ma propre entreprise qui vous proposera des solutions numériques
           personnalisées, modernes et adaptées à vos besoins.</p>
       </section>
-      <section className="basis-1/4 ml-10 p-6">
+      <section className="basis-1/4 ml-4 p-4">
         <img src={Wendy} alt="Wendy Baqué" />
       </section>
-      <section className="basis-1/4 ml-10 p-6">
+      <section className="basis-1/4 ml-4 p-4">
         <a
           href="https://www.linkedin.com/in/wendy-baqu%C3%A9/"
           alt="LinkedIn de Wendy Baqué"
