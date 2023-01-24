@@ -27,9 +27,30 @@ const data = [
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-639ae7498ff6b.png",
     techno: "React | Tailwind | HTML & CSS",
     descr:
-      "Répertoire de componsants front-end pour illustrer mes compétences.",
+      "Répertoire de composants front-end pour illustrer mes compétences.",
     code: "https://github.com/wendybaque/Happy-Frontend-Components",
     page: "https://happy-frontend-components.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "React Admin Panel",
+    img: "https://www.hebergeur-image.com/upload/88.174.47.6-63cfb0d2ac260.png",
+    techno: "React | Firebase | Sass | MUI components",
+    descr:
+      "Dashboard professionnel pour ordinateur de bureau, avec la possibilité de s'authentifier, upload d'images, darkmode et base de données interactive.",
+    code: "https://github.com/wendybaque/React-Admin-Panel",
+    page: "https://react-admin-panel-tau.vercel.app/",
+  },
+
+  {
+    id: 10,
+    title: "Firebase Chat !",
+    img: "https://www.hebergeur-image.com/upload/88.174.47.6-63c54257c354e.png",
+    techno: "React | Firebase | Sass",
+    descr:
+      "Application de chat en direct, avec création de profil (authentification) et upload d'images, grâce à Firebase et React.",
+    code: "https://github.com/wendybaque/firebase-chat",
+    page: "https://firebase-chat-wendybaque.vercel.app/login",
   },
   {
     id: 4,
@@ -93,17 +114,6 @@ const data = [
       "Application de quiz sur le thème de Marvel, réalisée dans le cadre du cours Udemy sur React, avec déploiement sur Firebase.",
     code: "https://github.com/wendybaque/Marvel-Quiz-React",
     page: "https://marvel-quiz-91110.web.app/",
-  },
-
-  {
-    id: 10,
-    title: "Firebase Chat !",
-    img: "https://www.hebergeur-image.com/upload/88.174.47.6-63c54257c354e.png",
-    techno: "React | Firebase | Sass",
-    descr:
-      "Application de chat en direct, avec création de profil (authentification) et upload d'images, grâce à Firebase et React.",
-    code: "https://github.com/wendybaque/firebase-chat",
-    page: "https://firebase-chat-wendybaque.vercel.app/login",
   },
 
   {

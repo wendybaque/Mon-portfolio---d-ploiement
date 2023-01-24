@@ -1,5 +1,5 @@
 import React from "react";
-import Wendy from "../assets/photocv.png";
+import Wendy from "../assets/wendycarré.png";
 
 function Footer() {
   return (
@@ -14,7 +14,7 @@ function Footer() {
           <span className="text-sm text-sky-800 sm:text-center dark:text-gray-400">
             Made with ❤️ by {" "}
             <a href="https://linktr.ee/wendybaque" className="hover:underline" alt="Linktree de Wendy Baqué">
-              Wendy Baqué © 2022
+              Wendy Baqué © 2023
             </a>
           </span>
         </a>

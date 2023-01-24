@@ -29,67 +29,67 @@ function Skills() {
         <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">
           Frontend
         </h3>
-        <img src={htmlcss} alt="Html et Css" className="w-36" />
+        <img src={htmlcss} alt="Html et Css" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">HTML5 et CSS3</p>
-        <img src={javascript} alt="Javascript" className="w-36" />
+        <img src={javascript} alt="Javascript" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Javascript</p>
       </div>
       <div>
         <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">Backend</h3>
-        <img src={expressnode} alt="Express et Node" className="w-36" />
+        <img src={expressnode} alt="Express et Node" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Express.js & Node.js</p>
-        <img src={mysql} alt="MySQL" className="w-36" />
+        <img src={mysql} alt="MySQL" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">MySQL</p>
-        <img src={mongodb} alt="MongoDB" className="w-36" />
+        <img src={mongodb} alt="MongoDB" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">MongoDB</p>
-        <img src={firebase} alt="Firebase" className="w-36" />
+        <img src={firebase} alt="Firebase" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Firebase</p>
       </div>
       <div>
         <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">React</h3>
-        <img src={react} alt="React" className="w-36" />
+        <img src={react} alt="React" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">React.js</p>
-        <img src={redux} alt="React Redux" className="w-36" />
+        <img src={redux} alt="React Redux" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">React Redux</p>
-        <img src={query} alt="React Query" className="w-36" />
+        <img src={query} alt="React Query" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">React Query</p>
       </div>
       <div>
         <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">Style</h3>
-        <img src={tailwind} alt="Tailwindcss" className="w-36" />
+        <img src={tailwind} alt="Tailwindcss" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Tailwindcss</p>
-        <img src={bootstrap} alt="Bootstrap" className="w-36" />
+        <img src={bootstrap} alt="Bootstrap" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Bootstrap</p>
-        <img src={styled} alt="Styled components" className="w-36" />
+        <img src={styled} alt="Styled components" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Styled components</p>
-        <img src={sass} alt="Sass" className="w-36" />
+        <img src={sass} alt="Sass" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Sass</p>
       </div>
       <div>
         <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">Design</h3>
-        <img src={canva} alt="Canva" className="w-36" />
+        <img src={canva} alt="Canva" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Canva</p>
-        <img src={figma} alt="Figma" className="w-36" />
+        <img src={figma} alt="Figma" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Figma</p>
-        <img src={marvel} alt="Marvel app" className="w-36" />
+        <img src={marvel} alt="Marvel app" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Marvel App</p>
       </div>
       <div>
         <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">Versioning</h3>
-        <img src={github} alt="Github" className="w-36" />
+        <img src={github} alt="Github" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Github</p>
-        <img src={git} alt="Git" className="w-36" />
+        <img src={git} alt="Git" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Git</p>
       </div>
       <div>
         <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">No Code</h3>
-        <img src={glide} alt="Glide App" className="w-36" />
+        <img src={glide} alt="Glide App" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Glide App</p>
-        <img src={carrd} alt="Carrd.io" className="w-36" />
+        <img src={carrd} alt="Carrd.io" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Carrd.io</p>
-        <img src={dorik} alt="Dorik.io" className="w-36" />
+        <img src={dorik} alt="Dorik.io" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Dorik.io</p>
-        <img src={wordpress} alt="Wordpress" className="w-36" />
+        <img src={wordpress} alt="Wordpress" className="w-36 hover:w-44" />
         <p className="font-poppins p-2 text-center">Wordpress</p>
       </div>
     </div>

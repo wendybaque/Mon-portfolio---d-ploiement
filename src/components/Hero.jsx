@@ -11,7 +11,7 @@ const Hero = () => {
       >
         <div className="text-white rounded-xl">
           <AnimatedColors />
-          <div className="drop-shadow-2xl flex items-center justify-center mt-24 animate-bounce">
+          <a href="#about" alt="redirection vers la section à propos"><div className="drop-shadow-2xl flex items-center justify-center mt-24 animate-bounce">
             <svg
               width="100px"
               height="100px"
@@ -31,6 +31,7 @@ const Hero = () => {
               </g>
             </svg>
           </div>
+          </a>
         </div>
       </header>
     </div>
