@@ -7,6 +7,7 @@ import mail from "../assets/mail.svg";
 import phone from "../assets/phone.svg";
 import githubsvg from "../assets/github.svg";
 import linkedinsvg from "../assets/linkedin.svg";
+import Blob from "./Blob";
 
 function Contact() {
   const notify = () =>
@@ -33,8 +34,11 @@ function Contact() {
       );
   };
   return (
-    <div className="font-poppins flex flex-row" aria-label="Page de contact">
-      <section className="basis-1/3 ml-10 p-6 justify-center justify-items-center	justify-self-center	items-center place-content-center	place-items-center		" aria-label="Partie gauche de la page avec les coordonnées de contact de Wendy Baqué">
+    <div className="m-6 font-poppins text-xl flex flex-row" aria-label="Page de contact">
+      <section
+        className="basis-1/3 ml-10 p-6 justify-center justify-items-center	justify-self-center	items-center place-content-center	place-items-center"
+        aria-label="Partie gauche de la page avec les coordonnées de contact de Wendy Baqué"
+      >
         <div>
           <img
             src={phone}
@@ -73,10 +77,11 @@ function Contact() {
           <a href="https://github.com/wendybaque" target="_blanck">
             <p className="text-sky-800 text-left">wendybaque</p>
           </a>
+          <Blob />
         </div>
       </section>
       <section
-        className="basis-1/2 ml-10 p-6"
+        className="basis-1/2 ml-10 p-6 text-xl"
         aria-label="Formulaire de contact"
       >
         <p className="text-center m-4 p-4">
@@ -85,7 +90,8 @@ function Contact() {
           </span>
           <br />
           N'hésitez pas à me contacter sur Linkedin ou via le formulaire
-          ci-dessous. <br/>Je vous répondrai dans les plus brefs délais.
+          ci-dessous. <br />
+          Je vous répondrai dans les plus brefs délais.
         </p>
         <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col">
           <label className="m-4 p-4 text-sky-800 flex flex-col">
@@ -97,7 +103,8 @@ function Contact() {
               required
               aria-required="true"
               autoComplete="on"
-              className="p-4 rounded-lg shadow-lg"
+              className="p-4 m-4 rounded-lg shadow-lg"
+              style={{ caretColor: "blue" }}
             />
           </label>
           <label className="m-4 p-4 text-sky-800 flex flex-col">
@@ -109,7 +116,8 @@ function Contact() {
               required
               aria-required="true"
               autoComplete="on"
-              className="p-4 rounded-lg shadow-lg"
+              className="p-4 m-4 rounded-lg shadow-lg"
+              style={{ caretColor: "blue" }}
             />
           </label>
           <label className="m-4 p-4 text-sky-800 flex flex-col">
@@ -121,7 +129,8 @@ function Contact() {
               required
               aria-required="true"
               autoComplete="on"
-              className="p-4 rounded-lg shadow-lg"
+              className="p-4 m-4 rounded-lg shadow-lg"
+              style={{ caretColor: "blue" }}
             />
           </label>
           <label className="m-4 p-4 text-sky-800 flex flex-col">
@@ -133,7 +142,8 @@ function Contact() {
               required
               aria-required="true"
               autoComplete="off"
-              className="p-4 rounded-lg shadow-lg"
+              className="p-4 m-4 rounded-lg shadow-lg"
+              style={{ caretColor: "blue" }}
             />
           </label>
           <label className="m-4 p-4 text-sky-800 flex flex-col">
@@ -144,14 +154,15 @@ function Contact() {
               name="message"
               required
               aria-required="true"
-              className="p-4 rounded-lg shadow-lg"
+              className="p-4 m-4 rounded-lg shadow-lg"
+              style={{ caretColor: "blue" }}
             />
           </label>
           <button
             type="submit"
             onClick={notify}
             aria-pressed="false"
-            className="p-4 w-24 animate-pulse rounded-lg shadow-lg inline-flex items-center px-3 py-2 text-center text-white bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="p-4 m-4 w-32 animate-pulse rounded-lg shadow-lg inline-flex items-center px-3 py-2 text-center text-white bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Envoyer
           </button>

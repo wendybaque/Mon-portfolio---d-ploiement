@@ -1,0 +1,89 @@
+.blob-effect {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.blob-effect span:nth-child(1) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: solid 1px royalblue;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: rotate-blob 5s linear infinite;
+}
+
+.clic-here {
+    padding: 20px;
+}
+
+.blob-effect:hover span:nth-child(1) {
+    background: cyan;
+    border: none;
+}
+
+.blob-effect span:nth-child(2) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: solid 1px blue;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: rotate-blob 4s linear infinite;
+}
+
+.blob-effect:hover span:nth-child(2) {
+    background: royalblue;
+    border: none;
+}
+
+.blob-effect span:nth-child(3) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: solid 1px cyan;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: rotate-blob2 10s linear infinite;
+}
+
+.blob-effect:hover span:nth-child(3) {
+    background: blue;
+    border: none;
+}
+
+.blob-text{
+    font-weight: bold;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+@keyframes rotate-blob {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-blob2 {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

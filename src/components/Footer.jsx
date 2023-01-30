@@ -11,7 +11,7 @@ function Footer() {
           alt="Retour en haut de la page"
         >
           <img src={Wendy} className="h-8 mr-3" alt="Wendy Baqué" />
-          <span className="text-sm text-sky-800 sm:text-center dark:text-gray-400">
+          <span className="text-l text-sky-800 sm:text-center dark:text-gray-400">
             Made with ❤️ by {" "}
             <a href="https://linktr.ee/wendybaque" className="hover:underline" alt="Linktree de Wendy Baqué">
               Wendy Baqué © 2023

@@ -6,11 +6,11 @@ function About() {
   return (
     <div
       id="about"
-      className="font-poppins flex flex-row"
+      className="font-poppins flex flex-row m-6"
       aria-label="Page de présentation de Wendy Baqué"
     >
       <section className="basis-1/2 ml-10 p-6">
-        <p className="font-poppins p-4">
+        <p className="font-poppins p-4 text-xl">
           ✨ Je suis une personne{" "}
           <span className="font-bold text-sky-800">rigoureuse</span>, ce qui me
           permet de mener à bien mes projets et activités confiées de A à Z et
@@ -24,14 +24,14 @@ function About() {
           </span>{" "}
           pour répondre aux besoins des clients.
         </p>
-        <p className="font-poppins p-4">
+        <p className="font-poppins p-4 text-xl">
           ✨Soucieuse d’améliorer ma pratique dans un monde en constante
           évolution, je sais faire preuve d’
           <span className="font-bold text-sky-800">adaptabilité</span>, comme le
           prouve ma reconversion professionnelle dans un domaine totalement
           nouveau pour moi.
         </p>
-        <p className="font-poppins  p-4">
+        <p className="font-poppins  p-4 text-xl">
           ✨ Etre <span className="font-bold text-sky-800">autonome</span> dans
           ma pratique est important pour moi afin d'envisager tous les possibles
           qui s'offrent à moi et repose avant tout sur un{" "}
@@ -39,18 +39,18 @@ function About() {
           établi avec le client. Lui être utile apparaît aussi primordial pour
           donner un sens à mon travail.
         </p>
-        <p className="font-poppins p-4">
+        <p className="font-poppins p-4 text-xl">
           ✨ Enfin, ma <span className="font-bold text-sky-800">curiosité</span>{" "}
           me donne un goût certain pour l'apprentissage et l'actualisation de
           mes acquis dans un monde en constante évolution.
         </p>
-        <p className="font-poppins p-4">
+        <p className="font-poppins p-4 text-xl">
           🎯 Ainsi, mon <span className="font-bold text-sky-800">objectif</span>{" "}
           est de m'épanouir dans un métier porteur d'avenir et de sens, me
           permettant de mettre à profit mes points forts au service de mes
           clients, de mes collaborateurs et de votre entreprise.
         </p>
-        <p className="font-poppins p-4">
+        <p className="font-poppins p-4 text-xl">
           🚀 Les valeurs les plus importantes dans le monde du travail sont,
           selon moi,{" "}
           <span className="font-bold text-sky-800">
@@ -58,7 +58,7 @@ function About() {
             réussite.
           </span>
         </p>
-        <p className="font-poppins p-4">
+        <p className="font-poppins p-4 text-xl">
           📚 Je suis aussi auteure de{" "}
           <span className="font-bold text-sky-800">4 romans contemporains</span>{" "}
           sur des thématiques qui me tiennent à coeur : la santé mentale,
@@ -75,11 +75,11 @@ function About() {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="p-6 m-6 w-36 animate-pulse rounded-lg shadow-lg inline-flex items-center px-3 py-2 text-center text-white bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          <button className=" text-xl p-6 m-6 w-36 animate-pulse rounded-lg shadow-lg inline-flex items-center px-3 py-2 text-center text-white bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Voir mon site d'auteure
           </button>
         </a>
-        <p className="font-poppins p-4">
+        <p className="font-poppins p-4 text-xl">
           ➕{" "}
           <span className="font-bold text-sky-800 animate-pulse">
             Mon petit plus ?
@@ -89,7 +89,7 @@ function About() {
           qui me parle, et qui me tient toujours à cœur. Mon regard est un bonus
           : 100% user first et centrage sur l'accessibilité !
         </p>
-        <p className="font-poppins p-4">
+        <p className="font-poppins p-4 text-xl">
           ➕{" "}
           <span className="font-bold text-sky-800 animate-pulse">
             Mon autre petit plus ?{" "}
@@ -99,7 +99,7 @@ function About() {
           ou Glide apps, ainsi que Firebase et MongoDB pour vos bases de
           données.
         </p>
-        <p className="font-poppins p-4">
+        <p className="font-poppins p-4 text-xl">
           🗺️ Habituée au télétravail et résidant vers{" "}
           <span className="font-bold text-sky-800">Tours (37)</span>, cela reste
           l'une de mes priorités.

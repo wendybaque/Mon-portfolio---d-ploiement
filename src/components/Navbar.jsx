@@ -9,14 +9,14 @@ const Navbar = () => {
         aria-label="Barre de navigation"
         className="bg-slate-50 border-slate-100 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900"
       >
-        <div className=" font-poppins  container flex flex-wrap items-center justify-between mx-auto">
+        <div className=" font-poppins container flex flex-wrap items-center justify-between mx-auto">
           <a
             href="/"
             className="flex items-center"
             alt="redirection vers la page d'accueil"
           >
             <img src={Wendy} className="h-6 mr-3 sm:h-9" alt="Wendy Baqué" />
-            <span className="font-poppins text-sky-800 self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="text-xl font-poppins text-sky-800 self-center font-semibold whitespace-nowrap dark:text-white">
               Wendy Baqué
             </span>
           </a>
@@ -28,7 +28,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#intro"
-                  className="block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
+                  className="text-lg block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
                   aria-current="page"
                 >
                   Introduction
@@ -37,7 +37,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#about"
-                  className="block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
+                  className="text-lg block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
                 >
                   A propos
                 </a>
@@ -45,7 +45,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#skills"
-                  className="block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
+                  className="text-lg block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
                 >
                   Compétences
                 </a>
@@ -53,7 +53,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#projects"
-                  className="block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
+                  className="text-lg block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
                 >
                   Projets
                 </a>
@@ -61,7 +61,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#contact"
-                  className="block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
+                  className="text-lg block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
                 >
                   Contact
                 </a>
