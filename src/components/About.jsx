@@ -6,10 +6,10 @@ function About() {
   return (
     <div
       id="about"
-      className="font-poppins flex flex-row m-6"
+      className="font-poppins lg:flex flex-row lg:m-6"
       aria-label="Page de présentation de Wendy Baqué"
     >
-      <section className="basis-1/2 ml-10 p-6">
+      <section className="basis-1/2 lg:ml-10 lg:p-6">
         <p className="font-poppins p-4 text-xl">
           ✨ Je suis une personne{" "}
           <span className="font-bold text-sky-800">rigoureuse</span>, ce qui me

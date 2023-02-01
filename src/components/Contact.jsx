@@ -34,16 +34,16 @@ function Contact() {
       );
   };
   return (
-    <div className="m-6 font-poppins text-xl flex flex-row" aria-label="Page de contact">
+    <div className="m-6 font-poppins text-xl lg:flex flex-row" aria-label="Page de contact">
       <section
-        className="basis-1/3 ml-10 p-6 justify-center justify-items-center	justify-self-center	items-center place-content-center	place-items-center"
+        className="basis-1/3 lg:ml-10 p-6 justify-center justify-items-center	justify-self-center	items-center place-content-center	place-items-center"
         aria-label="Partie gauche de la page avec les coordonnées de contact de Wendy Baqué"
       >
         <div>
           <img
             src={phone}
             alt="pictogtamme de téléphone"
-            className="w-24 h-24 m-4 p-4"
+            className="w-24 h-24 lg:m-4 p-4"
           />{" "}
           <p className="text-sky-800 text-left">06 98 15 71 13</p>
         </div>
@@ -77,11 +77,11 @@ function Contact() {
           <a href="https://github.com/wendybaque" target="_blanck">
             <p className="text-sky-800 text-left">wendybaque</p>
           </a>
-          <Blob />
+          <div className="md:invisible sm:invisible"><Blob /></div>
         </div>
       </section>
       <section
-        className="basis-1/2 ml-10 p-6 text-xl"
+        className="basis-1/2 lg:ml-10 lg:p-6 text-xl"
         aria-label="Formulaire de contact"
       >
         <p className="text-center m-4 p-4">

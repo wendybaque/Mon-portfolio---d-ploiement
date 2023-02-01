@@ -295,7 +295,7 @@ const data = [
 export default function ProjectCard() {
   return (
     <div aria-label="cartes des projets de Wendy Baqué">
-      <div className="grid grid-cols-4 gap-10">
+      <div className="lg:grid grid-cols-4 gap-10">
         {data.map((d) => (
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
             <img className="rounded-t-lg h-64 w-full" src={d.img} alt="" />

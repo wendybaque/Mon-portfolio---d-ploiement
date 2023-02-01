@@ -24,7 +24,7 @@ import wordpress from "../assets/LogoWordpress.png";
 
 function Skills() {
   return (
-    <div id="skills" className="m-6 p-6 grid grid-col-6 grid-flow-col gap-12 justify-around justify-items-center" aria-label="Partie sur les compétences de Wendy Baqué">
+    <div id="skills" className="m-6 p-6 lg:grid grid-col-6 grid-flow-col gap-12 justify-center justify-items-center place-items-center" aria-label="Partie sur les compétences de Wendy Baqué">
       <div>
         <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">
           Frontend
