@@ -97,7 +97,7 @@ const data = [
   {
     id: 8,
     title: "Site d'auteure",
-    img: "https://www.hebergeur-image.com/upload/176.154.198.164-62d80e24d5f88.png",
+    img: "https://www.hebergeur-image.com/upload/88.174.47.6-63db7ce5436f1.png",
     techno: "React | Tailwindcss",
     descr:
       "Création de mon site d'auteure pour présenter mes romans et mon parcours littéraire",
@@ -295,7 +295,7 @@ const data = [
 export default function ProjectCard() {
   return (
     <div aria-label="cartes des projets de Wendy Baqué">
-      <div className="lg:grid grid-cols-4 gap-10">
+      <div className="lg:grid lg:grid-cols-4 lg:gap-10">
         {data.map((d) => (
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
             <img className="rounded-t-lg h-64 w-full" src={d.img} alt="" />

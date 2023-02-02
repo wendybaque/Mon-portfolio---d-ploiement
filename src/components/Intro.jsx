@@ -7,27 +7,37 @@ import github from "../assets/github.svg";
 
 function Intro() {
   return (
-    <div id="intro" className="text-xl font-poppins lg:flex flex-row" aria-label="Introduction du site">
+    <div
+      id="intro"
+      className="text-xl font-poppins lg:flex lg:flex-row"
+      aria-label="Introduction du site"
+    >
       <section className="basis-1/2 lg:ml-10 lg:p-6">
         <Fade cascade damping={0.5} duration={2000}>
           <h2 className="font-poppins font-bold text-2xl p-4">
-            Je suis <span className="text-sky-800 animate-pulse">Wendy Baqué</span>
+            Je suis{" "}
+            <span className="text-sky-800 animate-pulse">Wendy Baqué</span>
           </h2>
         </Fade>
         <h3 className="p-4">Développeuse Full Stack</h3>
         <h3 className="p-4 text-sky-800 font-bold">
-          Javascript React.js | Node.js | Express.js | MySQL | Auteure de romans
+          Javascript | React.js | Node.js | Express.js | MySQL | Firebase |
+          Tailwindcss | <br />
+          🌈 No code friendly ! <br/>
+          📖 Auteure de romans
         </h3>
         <p className="p-4">
           Après un bilan de compétences réalisé en full remote, je suis en
           reconversion professionnelle dans le domaine du développement web et
-          web mobile. 
+          web mobile.
         </p>
-        <p className="p-4">💻 A la suite de ma formation à la Wild Code School et un
-          stage très enrichissant chez Fedmind et de bénévolat chez O Media,
-          j'envisage de passer mon titre RNCP en février 2023, dans le but de
-          créer ma propre entreprise qui vous proposera des solutions numériques
-          personnalisées, modernes et adaptées à vos besoins.</p>
+        <p className="p-4">
+          💻 A la suite de ma formation à la Wild Code School et un stage très
+          enrichissant chez Fedmind et de bénévolat chez O Media, j'envisage de
+          passer mon titre RNCP en février 2023, dans le but de créer ma propre
+          entreprise qui vous proposera des solutions numériques personnalisées,
+          modernes et adaptées à vos besoins.
+        </p>
       </section>
       <section className="basis-1/4 ml-4 p-4">
         <img src={Wendy} alt="Wendy Baqué" />

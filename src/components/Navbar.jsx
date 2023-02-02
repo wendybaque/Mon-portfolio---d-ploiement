@@ -1,5 +1,5 @@
 import React from "react";
-import Wendy from "../assets/wendycarré.png";
+import Wendy from "../assets/wendycarré.webp";
 
 const Navbar = () => {
   return (

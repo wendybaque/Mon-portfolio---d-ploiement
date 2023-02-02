@@ -1,6 +1,6 @@
 import React from "react";
 
-import cvportfolio from "../assets/cvnew.png";
+import cvportfolio from "../assets/cvnew.webp";
 
 function About() {
   return (
