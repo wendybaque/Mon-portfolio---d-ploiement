@@ -23,7 +23,7 @@ function Intro() {
         <h3 className="p-4 text-sky-800 font-bold">
           Javascript | React.js | Node.js | Express.js | MySQL | Firebase |
           Tailwindcss | <br />
-          🌈 No code friendly ! <br/>
+          🌈 No code friendly ! <br />
           📖 Auteure de romans
         </h3>
         <p className="p-4">
@@ -42,7 +42,8 @@ function Intro() {
       <section className="basis-1/4 ml-4 p-4">
         <img src={Wendy} alt="Wendy Baqué" />
       </section>
-      <section className="basis-1/4 ml-4 p-4">
+      <section className="flex justify-evenly p-4">
+        <div className="flex">
         <a
           href="https://www.linkedin.com/in/wendy-baqu%C3%A9/"
           alt="LinkedIn de Wendy Baqué"
@@ -52,9 +53,11 @@ function Intro() {
           <img
             src={linkedin}
             alt="LinkedIn de Wendy Baqué"
-            className="animate-pulse mt-32 w-20 drop-shadow-2xl"
+            className="animate-pulse mt-24 mr-20 w-20 drop-shadow-2xl"
           />
         </a>
+        </div>
+        <div>
         <a
           href="https://github.com/wendybaque"
           alt="Github de Wendy Baqué"
@@ -64,9 +67,10 @@ function Intro() {
           <img
             src={github}
             alt="Github de Wendy Baqué"
-            className="animate-pulse mt-20 w-20 drop-shadow-2xl"
+            className="animate-pulse mt-24 w-20 drop-shadow-2xl"
           />
         </a>
+        </div>
       </section>
     </div>
   );
