@@ -3,10 +3,11 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "@emailjs/browser";
 
-import mail from "../assets/mail.svg";
-import phone from "../assets/phone.svg";
-import githubsvg from "../assets/github.svg";
-import linkedinsvg from "../assets/linkedin.svg";
+import GitHubIcon from "@mui/icons-material/GitHub";
+
+import EmailIcon from "@mui/icons-material/Email";
+import PhoneIcon from "@mui/icons-material/Phone";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Blob from "./Blob";
 
 function Contact() {
@@ -34,50 +35,40 @@ function Contact() {
       );
   };
   return (
-    <div className="m-6 font-poppins text-xl lg:flex flex-row" aria-label="Page de contact">
+    <div
+      className="m-6 font-poppins text-xl lg:flex flex-row"
+      aria-label="Page de contact"
+      id="contact"
+    >
       <section
         className="basis-1/3 lg:ml-10 p-6 justify-center justify-items-center	justify-self-center	items-center place-content-center	place-items-center"
         aria-label="Partie gauche de la page avec les coordonnées de contact de Wendy Baqué"
       >
-        <div>
-          <img
-            src={phone}
-            alt="pictogtamme de téléphone"
-            className="w-24 h-24 lg:m-4 p-4"
-          />{" "}
-          <p className="text-sky-800 text-left">06 98 15 71 13</p>
+        <div className="flex mb-10">
+          <PhoneIcon fontSize="large" /> 
+          <p className="text-sky-800 text-left ml-4 ">06 98 15 71 13</p>
         </div>
-        <div className="contact-info-item">
-          <img
-            src={mail}
-            alt="pictogramme d'enveloppe d'email"
-            className="w-24 h-24 m-4 p-4"
-          />{" "}
-          <p className="text-sky-800 text-left">baque.wendy@gmail.com</p>
+        <div className="flex mb-10">
+          <EmailIcon fontSize="large" />
+          <p className="text-sky-800 text-left ml-4">baque.wendy@gmail.com</p>
         </div>
-        <div className="contact-info-item">
-          <img
-            src={linkedinsvg}
-            alt="pictogramme avec le logo de linkedin"
-            className="w-24 h-24 m-4 p-4"
-          />
+        <div className="flex mb-10">
+          <LinkedInIcon fontSize="large" />
           <a
             href="https://www.linkedin.com/in/wendy-baqu%C3%A9/"
             target="_blanck"
           >
-            <p className="text-sky-800 text-left">Wendy Baqué</p>
+            <p className="text-sky-800 text-left ml-4">Wendy Baqué</p>
           </a>
         </div>
-        <div className="contact-info-item">
-          <img
-            src={githubsvg}
-            alt="pictogramme avec le logo de github"
-            className="w-24 h-24 m-4 p-4"
-          />
+        <div className="flex mb-10">
+          <GitHubIcon fontSize="large" />
           <a href="https://github.com/wendybaque" target="_blanck">
-            <p className="text-sky-800 text-left">wendybaque</p>
+            <p className="text-sky-800 text-left ml-4">wendybaque</p>
           </a>
-          <div className="md:invisible sm:invisible"><Blob /></div>
+          <div className="md:invisible sm:invisible">
+            <Blob />
+          </div>
         </div>
       </section>
       <section

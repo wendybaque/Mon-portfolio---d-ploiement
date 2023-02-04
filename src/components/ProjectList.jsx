@@ -3,10 +3,10 @@ import ProjectCard from "./ProjectCard";
 
 function ProjectList() {
   return (
-    <div className="m-6">
+    <div className="m-6" id="projects">
       <div  aria-label="Partie sur les projets réalisés par Wendy Baqué, présentés en cartes">
       </div>
-      <div className="lg:m-10 p-10">
+      <div className="lg:m-10 p-10 ">
         <ProjectCard />
       </div>
     </div>

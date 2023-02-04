@@ -13,6 +13,7 @@ import SectionProjects from "./components/SectionProjects";
 import Navbar from "./components/Navbar";
 
 import "./App.css";
+import ButtonTop from "./components/ButtonTop";
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
       <ProjectList />
       <SectionContact />
       <Contact />
+      <ButtonTop />
       <Footer />
     </div>
   );

@@ -26,7 +26,7 @@ function Skills() {
   return (
     <div
       id="skills"
-      className="m-6 p-6 lg:grid grid-col-6 grid-flow-col gap-12 justify-center justify-items-center place-items-center"
+      className="m-6 p-6 lg:grid grid-col-6 grid-flow-col gap-12 content-start items-start justify-items-center place-items-center"
       aria-label="Partie sur les compétences de Wendy Baqué"
     >
       <div>
