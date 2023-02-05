@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: Googlebot
+Disallow: /nogooglebot/
+User-agent: *
+Disallow:
+Sitemap: https://wendybaqueportfoliodev.wendev.fr/sitemap.xml
