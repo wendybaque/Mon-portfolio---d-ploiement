@@ -70,7 +70,7 @@ function About() {
           j' un projet à présenter aux clients et collaborateurs.
         </p>
         <a
-          href="https://site-auteure.vercel.app/"
+          href="https://wendybaqueauteure.wendev.fr/"
           alt="Se rendre sur le site de Wendy Baqué, auteure de romans"
           target="_blank"
           rel="noreferrer"
@@ -95,9 +95,10 @@ function About() {
             Mon autre petit plus ?{" "}
           </span>
           Je suis no code friendly ! Face à la demande croissante sur des outils
-          de solutions en ligne clés en mains comme Wordpress, Carrds.io, Zapier
-          ou Glide apps, ainsi que Firebase et MongoDB pour vos bases de
-          données.
+          de solutions en ligne clés en mains, je peux vous aider à augmenter
+          votre productivité et votre efficacité grâce à des outils comme
+          Airtable, Glideapps, ou encore Zapier. Je vous propose également des
+          création de votre landing page sur Carrd.io, Softr ou Glidepages.
         </p>
         <p className="font-poppins p-4 text-xl">
           🗺️ Habituée au télétravail et résidant vers{" "}
