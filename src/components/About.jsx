@@ -1,6 +1,7 @@
 import React from "react";
 
-import cvportfolio from "../assets/cvnew.webp";
+import cvportfolio from "../assets/newcvcode.webp";
+import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 
 function About() {
   return (
@@ -75,7 +76,7 @@ function About() {
           target="_blank"
           rel="noreferrer"
         >
-          <button className=" text-xl p-6 m-6 w-36 animate-pulse rounded-lg shadow-lg inline-flex items-center px-3 py-2 text-center text-white bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          <button className=" text-l p-6 m-6 rounded-lg shadow-lg inline-flex items-center px-3 py-2 text-center text-white bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Voir mon site d'auteure
           </button>
         </a>
@@ -113,13 +114,13 @@ function About() {
           className="rounded-lg drop-shadow-2xl"
         />
         <a
-          href="https://acrobat.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A9722f08a-cf74-31a2-9773-66bfaacac55f&viewer%21megaVerb=group-discover"
+          href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:162e5941-1d99-31b6-921d-8b32c8ce80f0"
           alt="Télécharger le CV de Wendy Baqué"
           target="_blank"
           rel="noreferrer"
         >
-          <button className="p-6 m-6 w-36 animate-pulse rounded-lg shadow-lg inline-flex items-center px-3 py-2 text-center text-white bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Télécharger mon CV
+          <button className="p-6 m-6 animate-pulse rounded-lg shadow-lg inline-flex items-center px-3 py-2 text-center text-white bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <PictureAsPdfIcon /> Télécharger mon CV
           </button>
         </a>
       </section>

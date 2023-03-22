@@ -21,8 +21,8 @@ function Intro() {
         </Fade>
         <h3 className="p-4">Développeuse Full Stack</h3>
         <h3 className="p-4 text-sky-800 font-bold">
-          Javascript | React.js | Node.js | Express.js | MySQL | Firebase |
-          Tailwindcss | <br />
+          Javascript | React | Angular | Node.js | Express.js | MySQL | Firebase
+          | Tailwindcss | <br />
           🌈 No code friendly ! <br />
           📖 Auteure de romans
         </h3>
@@ -33,10 +33,20 @@ function Intro() {
         </p>
         <p className="p-4">
           💻 A la suite de ma formation à la Wild Code School et un stage très
-          enrichissant chez Fedmind et de bénévolat chez O Media, j'envisage de
-          passer mon titre RNCP en février 2023, dans le but de créer ma propre
-          entreprise qui vous proposera des solutions numériques personnalisées,
-          modernes et adaptées à vos besoins.
+          enrichissant chez Fedmind et de bénévolat chez O Media et Nelixair,
+          j'ai créé{" "}
+          <span className="font-bold text-fuchsia-500">
+            <a
+              href="https://wendev.fr/"
+              alt="Redirection vers le site de WenDev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              WenDev
+            </a>
+          </span>
+          , ma propre entreprise qui vous proposera des solutions numériques
+          personnalisées, modernes et adaptées à vos besoins.
         </p>
       </section>
       <section className="basis-1/4 ml-4 p-4">
@@ -44,32 +54,32 @@ function Intro() {
       </section>
       <section className="flex justify-evenly p-4">
         <div className="flex">
-        <a
-          href="https://www.linkedin.com/in/wendy-baqu%C3%A9/"
-          alt="LinkedIn de Wendy Baqué"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src={linkedin}
+          <a
+            href="https://www.linkedin.com/in/wendy-baqu%C3%A9/"
             alt="LinkedIn de Wendy Baqué"
-            className="animate-pulse mt-24 mr-20 w-20 drop-shadow-2xl"
-          />
-        </a>
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={linkedin}
+              alt="LinkedIn de Wendy Baqué"
+              className="animate-pulse mt-24 mr-20 w-20 drop-shadow-2xl"
+            />
+          </a>
         </div>
         <div>
-        <a
-          href="https://github.com/wendybaque"
-          alt="Github de Wendy Baqué"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src={github}
+          <a
+            href="https://github.com/wendybaque"
             alt="Github de Wendy Baqué"
-            className="animate-pulse mt-24 w-20 drop-shadow-2xl"
-          />
-        </a>
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={github}
+              alt="Github de Wendy Baqué"
+              className="animate-pulse mt-24 w-20 drop-shadow-2xl"
+            />
+          </a>
         </div>
       </section>
     </div>

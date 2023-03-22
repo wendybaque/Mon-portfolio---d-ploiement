@@ -10,10 +10,12 @@ import SectionContact from "./components/SectionContact";
 import SectionSkills from "./components/SectionSkills";
 import SectionAbout from "./components/SectionAbout";
 import SectionProjects from "./components/SectionProjects";
+import SectionWendev from "./components/SectionWendev";
 import Navbar from "./components/Navbar";
 
 import "./App.css";
 import ButtonTop from "./components/ButtonTop";
+import Wendev from "./components/Wendev";
 
 function Home() {
   return (
@@ -27,6 +29,8 @@ function Home() {
       <Skills />
       <SectionProjects />
       <ProjectList />
+      <SectionWendev />
+      <Wendev />
       <SectionContact />
       <Contact />
       <ButtonTop />

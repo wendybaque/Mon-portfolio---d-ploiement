@@ -60,6 +60,14 @@ const Navbar = () => {
               </li>
               <li>
                 <a
+                  href="#wendev"
+                  className="text-lg block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
+                >
+                  Mon entreprise
+                </a>
+              </li>
+              <li>
+                <a
                   href="#contact"
                   className="text-lg block py-2 pl-3 pr-4 text-sky-800 dark:text-white"
                 >
