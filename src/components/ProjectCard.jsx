@@ -13,13 +13,23 @@ const data = [
   },
   {
     id: 2,
-    title: "Site d'auteure",
+    title: "Site pour mes activités d'auteure",
     img: "https://www.hebergeur-image.com/upload/88.174.47.6-63db7ce5436f1.png",
     techno: "React | Tailwindcss",
     descr:
       "Création de mon site d'auteure pour présenter mes romans et mon parcours littéraire",
     code: "https://github.com/wendybaque/site-auteure",
-    page: "https://site-auteure.vercel.app/",
+    page: "https://wendybaqueauteure.wendev.fr/",
+  },
+  {
+    id: 2,
+    title: "Site web front-end - Association Nelixair",
+    img: "https://www.hebergeur-image.com/upload/88.174.47.6-64326d3d4337c.png",
+    techno: "React | Tailwindcss",
+    descr:
+      "Mission bénévole chez Nelixair, une association mettant en avant l'aviation virtuelle. En charge de la partie front-end et de l'interface web.",
+    code: "https://github.com/wendybaque/Nelixair-website-front-end-copy",
+    page: "https://nelixair-website-front-end-copy-elgelhh6m-wendybaque.vercel.app/",
   },
   {
     id: 3,
