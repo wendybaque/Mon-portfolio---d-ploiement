@@ -37,7 +37,7 @@ function Intro() {
           j'ai créé{" "}
           <span className="font-bold text-fuchsia-500">
             <a
-              href="https://wendev.fr/"
+              href="https://www.wendev.fr/"
               alt="Redirection vers le site de WenDev"
               target="_blank"
               rel="noreferrer"

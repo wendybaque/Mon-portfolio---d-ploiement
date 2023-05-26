@@ -50,7 +50,7 @@ const Wendev = () => {
           budget.
         </p>
         <a
-          href="https://wendev.fr/Offreauteurs"
+          href="https://www.wendev.fr/Offreauteurs"
           alt="Découvrir l'offre spéciale auteurs de WenDev"
           target="_blank"
           rel="noreferrer"
@@ -61,7 +61,7 @@ const Wendev = () => {
         </a>
         <p className="font-poppins p-4 text-xl">Voici mes autres services :</p>
         <a
-          href="https://wendev.fr/OffreSite"
+          href="https://www.wendev.fr/OffreSite"
           alt="Découvrir l'offre de WenDev"
           target="_blank"
           rel="noreferrer"
@@ -71,7 +71,7 @@ const Wendev = () => {
           </button>
         </a>
         <a
-          href="https://wendev.fr/OffreMaquette"
+          href="https://www.wendev.fr/OffreMaquette"
           alt="Découvrir l'offre de WenDev"
           target="_blank"
           rel="noreferrer"
@@ -80,9 +80,18 @@ const Wendev = () => {
             Maquettes pour le web
           </button>
         </a>
-
         <a
-          href="https://wendev.fr/OffreGlide"
+          href="https://www.wendev.fr/OffrePortfolio"
+          alt="Découvrir l'offre de WenDev"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className=" text-l m-6 rounded-lg shadow-lg inline-flex items-center px-3 py-2 text-center text-white bg-violet-600">
+            Création de portfolios{" "}
+          </button>
+        </a>
+        {/* <a
+          href="https://www.wendev.fr/OffreGlide"
           alt="Découvrir l'offre de WenDev"
           target="_blank"
           rel="noreferrer"
@@ -90,9 +99,9 @@ const Wendev = () => {
           <button className=" text-l m-6 rounded-lg shadow-lg inline-flex items-center px-3 py-2 text-center text-white bg-violet-600">
             Application mobile
           </button>
-        </a>
-        <a
-          href="https://wendev.fr/OffreChat"
+        </a> */}
+        {/* <a
+          href="https://www.wendev.fr/OffreChat"
           alt="Découvrir l'offre de WenDev"
           target="_blank"
           rel="noreferrer"
@@ -100,9 +109,9 @@ const Wendev = () => {
           <button className=" text-l m-6 rounded-lg shadow-lg inline-flex items-center px-3 py-2 text-center text-white bg-violet-600">
             Chats et chatbots
           </button>
-        </a>
+        </a> */}
         <a
-          href="https://wendev.fr/OffreFirebase"
+          href="https://www.wendev.fr/OffreFirebase"
           alt="Découvrir l'offre de WenDev"
           target="_blank"
           rel="noreferrer"
