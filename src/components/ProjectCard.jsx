@@ -4,7 +4,7 @@ const data = [
   {
     id: 1,
     title: "Site internet de WenDev",
-    img: "https://www.hebergeur-image.com/upload/88.174.47.6-641aca03aa042.png",
+    img: "https://i.goopics.net/nu8atj.png",
     techno: "React | Tailwindcss | Jotform | Calendly | Axeptio | Hostinger ",
     descr:
       "Site de mon entreprise, avec intégration de modules no-code, outils de statistiques des données et hébergement référencé.",
@@ -14,11 +14,29 @@ const data = [
   {
     id: 2,
     title: "Site web de Farah D. auteure",
-    img: "https://www.hebergeur-image.com/upload/88.174.47.6-64634645daedb.png",
+    img: "https://i.goopics.net/gb2alk.png",
     techno: "No Code | Hostinger website builder | SEO",
     descr: "Création du site web de l'auteure, offre Premium de WenDev",
     code: "https://www.wendev.fr/Offreauteurs",
     page: "https://farahdauteure.com",
+  },
+  {
+    id: 3,
+    title: "Site web d'Alexandra Roch",
+    img: "https://i.goopics.net/pbowtq.png",
+    techno: "No Code | Hostinger website builder | SEO",
+    descr: "Création du site web de l'auteure, offre Premium de WenDev",
+    code: "https://www.wendev.fr/Offreauteurs",
+    page: "https://www.alexandraroch.com/",
+  },
+  {
+    id: 4,
+    title: "Site web de CINOS Consulting",
+    img: "https://i.goopics.net/5xapju.png",
+    techno: "No Code | Hostinger website builder | SEO",
+    descr: "Création du site web du cabinet de consulting CINOS, offre site vitrine no-code de WenDev",
+    code: "https://www.wendev.fr/OffreSite",
+    page: "https://cinosconsulting.com/",
   },
   {
     id: 3,
@@ -33,7 +51,7 @@ const data = [
   {
     id: 4,
     title: "Site web front-end - Association Nelixair",
-    img: "https://www.hebergeur-image.com/upload/88.174.47.6-64326d3d4337c.png",
+    img: "https://i.goopics.net/1jx1qj.png",
     techno: "React | Tailwindcss",
     descr:
       "Mission bénévole chez Nelixair, une association mettant en avant l'aviation virtuelle. En charge de la partie front-end et de l'interface web.",
@@ -73,7 +91,7 @@ const data = [
   {
     id: 8,
     title: "Snapface",
-    img: "https://www.hebergeur-image.com/upload/88.174.47.6-64709cc7642c4.png",
+    img: "https://i.goopics.net/i6p3fq.png",
     techno: "Angular | Scss | Regex",
     descr:
       "Application réalisée dans le cadre de mon apprentissage en autonomie sur OpenClassroom pour intégrer les différents concepts d'Angular.",

@@ -19,18 +19,13 @@ function Intro() {
             <span className="text-sky-800 animate-pulse">Wendy Baqué</span>
           </h2>
         </Fade>
-        <h3 className="p-4">Développeuse Full Stack</h3>
+        <h3 className="p-4">Développeuse Front-End & Freelance </h3>
         <h3 className="p-4 text-sky-800 font-bold">
           Javascript | React | Angular | Node.js | Express.js | MySQL | Firebase
           | Tailwindcss | <br />
           🌈 No code friendly ! <br />
           📖 Auteure de romans
         </h3>
-        <p className="p-4">
-          Après un bilan de compétences réalisé en full remote, je suis en
-          reconversion professionnelle dans le domaine du développement web et
-          web mobile.
-        </p>
         <p className="p-4">
           💻 A la suite de ma formation à la Wild Code School et un stage très
           enrichissant chez Fedmind et de bénévolat chez O Media et Nelixair,

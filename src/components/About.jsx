@@ -1,6 +1,6 @@
 import React from "react";
 
-import cvportfolio from "../assets/newcvcode.webp";
+import cvportfolio from "../assets/cvwebp.webp";
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 
 function About() {
@@ -95,11 +95,7 @@ function About() {
           <span className="font-bold text-sky-800 animate-pulse">
             Mon autre petit plus ?{" "}
           </span>
-          Je suis no code friendly ! Face à la demande croissante sur des outils
-          de solutions en ligne clés en mains, je peux vous aider à augmenter
-          votre productivité et votre efficacité grâce à des outils comme
-          Airtable, Glideapps, ou encore Zapier. Je vous propose également des
-          création de votre landing page sur Carrd.io, Softr ou Glidepages.
+          Je suis no code friendly ! Face à la demande croissante sur des outils de solutions en ligne clés en mains, je me suis formée au no-code et te propose des solutions pour augmenter ta productivité et ton efficacité !
         </p>
         <p className="font-poppins p-4 text-xl">
           🗺️ Habituée au télétravail et résidant vers{" "}
@@ -114,7 +110,7 @@ function About() {
           className="rounded-lg drop-shadow-2xl"
         />
         <a
-          href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:162e5941-1d99-31b6-921d-8b32c8ce80f0"
+          href="https://acrobat.adobe.com/link/review?uri=urn%3Aaaid%3Ascds%3AUS%3Ad25320ff-c625-3b23-a30f-f76dc481b23b"
           alt="Télécharger le CV de Wendy Baqué"
           target="_blank"
           rel="noreferrer"

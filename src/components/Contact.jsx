@@ -8,7 +8,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import Blob from "./Blob";
 
 function Contact() {
   const notify = () =>
@@ -66,9 +65,6 @@ function Contact() {
           <a href="https://github.com/wendybaque" target="_blanck">
             <p className="text-sky-800 text-left ml-4">wendybaque</p>
           </a>
-          <div className="md:invisible sm:invisible">
-            <Blob />
-          </div>
         </div>
       </section>
       <section
@@ -153,7 +149,7 @@ function Contact() {
             type="submit"
             onClick={notify}
             aria-pressed="false"
-            className="w-28 animate-pulse rounded-lg shadow-lg inline-flex items-center px-3 py-2 text-center text-white bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="w-28 animate-pulse rounded-lg shadow-lg px-3 py-2 text-center text-white bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Envoyer
           </button>

@@ -8,7 +8,7 @@ const Hero = () => {
         aria-label="En-tête"
         className="flex items-center justify-center bg-fixed bg-center bg-cover custom-img"
       >
-        <div className="text-white rounded-xl">
+        <div className="text-white rounded-xl mt-10">
           <h2 className="absolute drop-shadow-lg p-2 lg:text-8xl md:text-2xl sm:text-2xl font-poppins text-sky-800 font-bold text-center">
             BIENVENUE <br /> SUR MON <br />
             PORTFOLIO
