@@ -47,6 +47,11 @@ function Skills() {
           alt="angular"
           className="mb-4"
         />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
+          className="mb-4"
+          alt="next.js"
+        />
       </div>
       <div>
         <h3 className="font-poppins font-bold text-2xl text-sky-800 p-4 text-center">
